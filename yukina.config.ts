@@ -2,9 +2,9 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Yskye",
+  title: "YSKYE'S BLOG",
   subTitle: "云书景的博客",
-  brandTitle: "Yskye",
+  brandTitle: "YSKYE'S BLOG",
 
   description: "云书景的个人知识库与技术博客",
 

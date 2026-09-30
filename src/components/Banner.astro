@@ -179,25 +179,44 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
 </style>
 
 <script>
-  // 一言池：加载时随机替换副标题（无动画，刷新即换，自包含不依赖外部 API）
+  // 一言池：先本地即时显示，再异步拉在线一言补充（失败回落本地，无动画，刷新即换）
   const quotes = [
+    // 励志
     "不积跬步，无以至千里。",
-    "Talk is cheap. Show me the code.",
     "宝剑锋从磨砺出，梅花香自苦寒来。",
-    "Stay hungry, stay foolish.",
-    "纸上得来终觉浅，绝知此事要躬行。",
     "种一棵树最好的时间是十年前，其次是现在。",
-    "静水流深，沧笙踏歌。",
-    "代码如诗，人生如梦。",
-    "知不足而奋进，望远山而前行。",
-    "仰望星空，脚踏实地。",
-    "山不让尘，川不辞盈。",
-    "少一些功利主义的追求，多一些不为什么的坚持。",
-    "每一个不曾起舞的日子，都是对生命的辜负。",
     "路虽远，行则将至；事虽难，做则必成。",
+    "知不足而奋进，望远山而前行。",
+    "每一个不曾起舞的日子，都是对生命的辜负。",
+    // 程序员
+    "Talk is cheap. Show me the code.",
+    "Stay hungry, stay foolish.",
+    "There are only two hard things: cache invalidation and naming.",
+    "先能跑，再跑得快。",
+    "Hello, world! 是每段旅途的起点。",
+    "代码会撒谎，注释会遗忘，只有测试诚实。",
+    // 古风
+    "静水流深，沧笙踏歌。",
+    "山不让尘，川不辞盈。",
+    "纸上得来终觉浅，绝知此事要躬行。",
+    "会当凌绝顶，一览众山小。",
+    "长风破浪会有时，直挂云帆济沧海。",
+    "仰天大笑出门去，我辈岂是蓬蒿人。",
   ];
   const el = document.querySelector(".banner .subtitle");
   if (el) {
     el.textContent = quotes[Math.floor(Math.random() * quotes.length)];
+    // 在线一言异步补充：成功替换、失败/超时保持本地
+    try {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 5000);
+      fetch("https://v1.hitokoto.cn/?encode=json", { signal: ctrl.signal })
+        .then((r) => r.json())
+        .then((d) => {
+          if (d && d.hitokoto) el.textContent = d.hitokoto;
+        })
+        .catch(() => {})
+        .finally(() => clearTimeout(timer));
+    } catch (e) {}
   }
 </script>
