@@ -5,6 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
+  head: [['link', { rel: 'icon', href: '/yun.svg' }]],
   locales: {
     '/': {
       title: 'Yskye',
