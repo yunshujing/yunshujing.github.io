@@ -1,4 +1,4 @@
-import { webpackBundler } from '@vuepress/bundler-webpack'
+import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
@@ -9,20 +9,20 @@ export default defineUserConfig({
     '/': {
       title: 'Yskye',
       lang: 'zh-CN',
-      description: '云书景的博客',
+      description: '云书景的个人知识库与技术博客',
     },
     '/en/': {
       title: 'Yskye',
       lang: 'en-US',
-      description: '云书景的博客',
+      description: "Yskye's Personal Knowledge Base & Tech Blog",
     },
   },
 
-  bundler: webpackBundler(),
+  bundler: viteBundler(),
 
   theme: plumeTheme({
-    // 添加您的部署域名
-    // hostname: 'https://your_site_url',
+    // 部署域名
+    hostname: 'https://yunshujing.github.io',
 
     plugins: {
       /**

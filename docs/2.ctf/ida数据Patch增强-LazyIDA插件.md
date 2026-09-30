@@ -42,7 +42,7 @@ permalink: /article/p2putv8v/
 
 检查发现报错信息
 
-![PixPin_2024-10-15_14-24-48](assets/PixPin_2024-10-15_14-24-48-1728975720634.png)
+![PixPin_2024-10-15_14-24-48](./assets/PixPin_2024-10-15_14-24-48-1728975720634.png)
 
 查询ai后采取以下解决方案：
 
@@ -60,7 +60,7 @@ permalink: /article/p2putv8v/
 
    - 配置完后双击idapyswitch.exe文件，显示如下
 
-     ![1728975963716](assets/1728975963716.png)
+     ![1728975963716](./assets/1728975963716.png)
 
    - 根据您提供的输出信息，`idapyswitch` 工具已经找到了安装在 `D:\Program Files\Python311\` 的 Python 3.11.4 版本，但是它在注册表的 `Software\Hex-Rays\IDA` 项下没有找到 `Python3TargetDLL` 的值。这意味着 IDA Pro 还没有配置为使用这个 Python 安装。
 

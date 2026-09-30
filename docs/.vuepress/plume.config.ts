@@ -6,9 +6,11 @@ import { enNotes, zhNotes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/yun.svg',
+  favicon: '/yun.svg',
   // your git repo url
-  docsRepo: '',
+  docsRepo: 'https://github.com/yunshujing/yunshujing.github.io',
+  docsBranch: 'source',
   docsDir: 'docs',
 
   appearance: true,

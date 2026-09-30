@@ -12,7 +12,7 @@ permalink: /article/p4z4o7ca/
 
 ### 解题sop
 
-![画板](assets/yuque_mind.jpeg)
+![画板](./assets/yuque_mind.jpeg)
 
 ### ida用法
 #### 常用快捷键
@@ -190,7 +190,7 @@ layout就是布局的意思呢，/res/layout里的带Activity字样的xml文件�
 
 丢进观察代码
 
-![](assets/1728635730616.png)
+![](./assets/1728635730616.png)
 
 反汇编得到的是c++代码，main函数里找一找，有个you()函数被调用了
 
@@ -204,11 +204,11 @@ layout就是布局的意思呢，/res/layout里的带Activity字样的xml文件�
 
 就是用这种机制来强迫你动调的
 
-![](assets/1728635812618.png)
+![](./assets/1728635812618.png)
 
 #### Local Windows debugger
 
-![在这里插入图片描述](assets/5b3bb891636fb1908a50836f50c447c0.png) 
+![在这里插入图片描述](./assets/5b3bb891636fb1908a50836f50c447c0.png) 
 
 **本地调试启动**方法
 载入IDA后，程序实际上在对程序内置的一个字符串进行base64解码
@@ -219,7 +219,7 @@ layout就是布局的意思呢，/res/layout里的带Activity字样的xml文件�
 开始调试，IDA调试OD和x64DBG的快捷键基本一致，要启动程序只需要按F9即可，单击相应工具栏的绿色的三角形可以。在启动调试前，IDA会弹出一个确认对话框，单击”Yes“按钮，即可调试
 被调试文件默认的额路径为输入文件的路径，若目标文件不存在，或其他原因加载失败，IDA均会弹出警告对话框，确认后会进入Debug application setup设置的对话框
 
-![在这里插入图片描述](assets/97eaa1877828d1975afc61e109dbba85.png) 
+![在这里插入图片描述](./assets/97eaa1877828d1975afc61e109dbba85.png) 
 
 设置后单击”OK“按钮，IDA重新尝试启动程序
 
@@ -229,27 +229,27 @@ layout就是布局的意思呢，/res/layout里的带Activity字样的xml文件�
 
 在中断后，选择`Debugger->Debugger windows->Locals`菜单命令，打开查看局部变量的窗口
 
-![在这里插入图片描述](assets/f7c3e7fc436b3644270230bbe76e24af.png) 
+![在这里插入图片描述](./assets/f7c3e7fc436b3644270230bbe76e24af.png) 
 
-![在这里插入图片描述](assets/18739e0cd19ac159fc2420a0b06302e9.png) 
+![在这里插入图片描述](./assets/18739e0cd19ac159fc2420a0b06302e9.png) 
 
-![在这里插入图片描述](assets/9d8dc7dd8e2ee2145c21dbe4d33dd733.png) 
+![在这里插入图片描述](./assets/9d8dc7dd8e2ee2145c21dbe4d33dd733.png) 
 
 默认情况下，locals窗口与伪代码窗口一起显示
 
-![在这里插入图片描述](assets/9d8dc7dd8e2ee2145c21dbe4d33dd733.png) 
+![在这里插入图片描述](./assets/9d8dc7dd8e2ee2145c21dbe4d33dd733.png) 
 
 单步执行至scanf，会发现程序进入运行状态，此时等待用户输入，随意输入一些内容后回车，程序再次中断
 
 此时Loacal窗口中的v13变量显示刚才输入的值
 
-![在这里插入图片描述](assets/faeba4c3f0b2f818d347189f790fb3d0.png) 
+![在这里插入图片描述](./assets/faeba4c3f0b2f818d347189f790fb3d0.png) 
 
 红色代表这些变量的值被修改过
 
 继续执行程序至base64_decode后，可以看见v5已经被修改成另有一个值
 
-![在这里插入图片描述](assets/03c806b5e1442f46706256ac474bba46.png) 
+![在这里插入图片描述](./assets/03c806b5e1442f46706256ac474bba46.png) 
 
 但实际上v5为一个字符串，存放着正确的输入
 
@@ -258,11 +258,11 @@ layout就是布局的意思呢，/res/layout里的带Activity字样的xml文件�
 1. **在Locals窗口的Location栏中可以看到v5的位置为RDI，在寄存器窗口可以看到RDI的值，单击其值右侧的按钮，可以可看见flag**
 2. **修改v5的了类型，从_BYTE修改为char，此时HexRays会认为v5是一个字符串，从而将其在Locals中显示出来，具体操作：在伪代码窗口中按Y键，修改v5类型为char*并确认，然后在Loacls窗口中右键单击Refresh刷新**
 
-![在这里插入图片描述](assets/05e1ebb3e5a947f391d960d718197c39.png) 
+![在这里插入图片描述](./assets/05e1ebb3e5a947f391d960d718197c39.png) 
 
-![在这里插入图片描述](assets/5715ba6aeedf8cfa77c8a08fc4627126.png) 
+![在这里插入图片描述](./assets/5715ba6aeedf8cfa77c8a08fc4627126.png) 
 
 至此，我们成功的利用调试找到了内存中的flag
 
-![](assets/1728641189332.png)
+![](./assets/1728641189332.png)
 

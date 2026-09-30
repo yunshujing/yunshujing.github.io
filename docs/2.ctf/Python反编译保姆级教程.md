@@ -20,23 +20,23 @@ permalink: /article/yojiotyd/
 
 其中的py文件可以实现将exe文件或者elf文件，打包为
 
-![](assets/1f986c49f97446cc73aada1bbc928408.png)
+![](./assets/1f986c49f97446cc73aada1bbc928408.png)
 
 使用方法（以snake.elf这个题目为例）
 
 解压，将目标放入文件夹
 
-![](assets/ca332f9b4d10ad8b23c058e97ceeb8a2.png)
+![](./assets/ca332f9b4d10ad8b23c058e97ceeb8a2.png)
 
 在这里打开cmd窗口 ,输入指令`python pyinstxtractor.py snake`
 
-![](assets/6dbdf6b11ca4a00e3710561fe4e72dba.png)
+![](./assets/6dbdf6b11ca4a00e3710561fe4e72dba.png)
 
 呈现如下就是成功，发现文件中多了一个_extracted文件夹，打开 ，去里面找到"目标文件名.pyc"的文件（往往与struct.pyc一并出现，都有用）
 
-![](assets/e3bd48c07728f8ad4d25d7d49f637e9d.png)
+![](./assets/e3bd48c07728f8ad4d25d7d49f637e9d.png)
 
-![](assets/728ccf9c6cbd6c5ad810daadd3be497f.png)
+![](./assets/728ccf9c6cbd6c5ad810daadd3be497f.png)
 
 注：进行完上述操作之后，可能会遇到文件头结构需要补充修改的情况，就是讲sanke和struct两个pyc文件放入010查看sanke的文件头是否与struct相同，不同的话要把后者的内容补充上去（目前做题还没遇到过这样的情况，可能现在这个工具比较好用了）再进行下一步操作。
 
@@ -76,7 +76,7 @@ github上下载压缩包/文件 - cmake进行编译生成可执行文件 - 成�
 
 安装完毕wsl之后，打开cmd输入wsl切换系统
 
-![](assets/eb70c797dc3bc86ed1a16647747d17f9.png)
+![](./assets/eb70c797dc3bc86ed1a16647747d17f9.png)
 
 ##### 先熟悉几个指令（萌新可以看看）
 
@@ -84,17 +84,17 @@ cd
 
 地址跳转功能，我们输入cd ~之后会跳到最干净的地址
 
-![](assets/3f4f6a878975cfebc1fc2e936b4a0023.png)
+![](./assets/3f4f6a878975cfebc1fc2e936b4a0023.png)
 
 ls
 
 查看文件目录
 
-![](assets/488fdb627a9bfbeccb78c5097a925b0b.png)
+![](./assets/488fdb627a9bfbeccb78c5097a925b0b.png)
 
 我们发现就是我们的这几个目录
 
-![](assets/c363de7a9445facbb1fdfef24e6caf8a.png)
+![](./assets/c363de7a9445facbb1fdfef24e6caf8a.png)
 
 ##### 正式安装
 
@@ -122,7 +122,7 @@ ls
 
 `cd pycdc`
 
-![](assets/bcddd14b9a10ec4ad96a8c979a5f56fc.png)
+![](./assets/bcddd14b9a10ec4ad96a8c979a5f56fc.png)
 
 
 
@@ -130,15 +130,15 @@ ls
 
 `cmake .`
 
-![](assets/731f7d81dde3dc90c1056a80c01d4e69.png)
+![](./assets/731f7d81dde3dc90c1056a80c01d4e69.png)
 
 `make`
 
-![](assets/2e2546ca7e1d804c135d69f671ae358c.png)
+![](./assets/2e2546ca7e1d804c135d69f671ae358c.png)
 
 `sudo make install`
 
-![](assets/c7f1269e4ddba347b995edd690338e6d.png)
+![](./assets/c7f1269e4ddba347b995edd690338e6d.png)
 
 看到安装到bin目录下的两个文件就证明我们成功了，可以正常使用了，是不是非常方便
 
@@ -146,11 +146,11 @@ ls
 
 进入存放pyc文件的文件夹，打开终端进入wsl
 
-![](assets/00ceb0b37c795e7ad7ff57a43205871e.png)
+![](./assets/00ceb0b37c795e7ad7ff57a43205871e.png)
 
 输入命令`pycdc ./rc4.pyc`
 
-![](assets/21673ca13ae61f4f2e24af65a6626b81.png)
+![](./assets/21673ca13ae61f4f2e24af65a6626b81.png)
 
 顺利反编译
 
@@ -158,11 +158,11 @@ ls
 
 `pycdc ./rc4.pyc &gt;&gt; ../newrc4.py`就会在上一层目录中生成这个py文件
 
-![](assets/ab30a3aab616196529ff02618c8a5251.png)
+![](./assets/ab30a3aab616196529ff02618c8a5251.png)
 
 和在窗口打开的并无差异
 
-![](assets/9c33e0a627fd3b505a11d69c03e27c00.png)
+![](./assets/9c33e0a627fd3b505a11d69c03e27c00.png)
 
 #### Windows系统
 
@@ -174,7 +174,7 @@ windows的操作可能比较繁琐，cmake的安装可能需要一定功夫，�
 
 
 
-![](assets/0993d7bbd342b5e1a4d00b2d463ccb17.png)
+![](./assets/0993d7bbd342b5e1a4d00b2d463ccb17.png)
 
 然后去下载一个cmake和MinGW，按照这个两篇文章来就好
 
@@ -190,31 +190,31 @@ windows的操作可能比较繁琐，cmake的安装可能需要一定功夫，�
 
 （2）解压的文件夹放入vscode中
 
-![](assets/9f905f208f029d9dd0166593427aaa17.png)
+![](./assets/9f905f208f029d9dd0166593427aaa17.png)
 
 ctrl shift P 选择生成
 
-![](assets/e5de71a8941d79afa4c312b5c26a7c18.png)
+![](./assets/e5de71a8941d79afa4c312b5c26a7c18.png)
 
 下一步选择gcc
 
-![](assets/2e267d4243b5117f80a0e51314175b99.png)
+![](./assets/2e267d4243b5117f80a0e51314175b99.png)
 
 最后发现出现了bulid文件夹，控制台也显示编译完成，在我们的文件夹的位置就出现了编译好的可执行文件
 
-![](assets/f8cd57e621560c4b55771971ed84c5e7.png)
+![](./assets/f8cd57e621560c4b55771971ed84c5e7.png)
 
-![](assets/22ae952c0a5928a63e9cf50f8d788ea9.png)
+![](./assets/22ae952c0a5928a63e9cf50f8d788ea9.png)
 
 ##### 使用方法
 
 将上面的两个exe放入我们的pyc文件夹中，在终端打开
 
-![](assets/20a3f11ab556ed8418cd0b794bd63ac0.png)
+![](./assets/20a3f11ab556ed8418cd0b794bd63ac0.png)
 
 输入命令 `pycdc.exe rc4.pyc`
 
-![](assets/150dd4c6d4007eed4017a9edb583e12d.png)
+![](./assets/150dd4c6d4007eed4017a9edb583e12d.png)
 
 ### （三）应用在题目中，随意修改编译我们的脚本源码
 
@@ -230,11 +230,11 @@ ctrl shift P 选择生成
 
 使用wls的话，我们打开vscode
 
-![](assets/7044400597ff5621706e61c2c9a94eca.png)
+![](./assets/7044400597ff5621706e61c2c9a94eca.png)
 
 选择右边的远程资源管理器，打开我们的pycdc文件夹
 
-![](assets/f525145a368df64817aff15dba844602.png)
+![](./assets/f525145a368df64817aff15dba844602.png)
 
 进入这个ASTree.cpp的文件，copy刚才反汇编的报错
 
@@ -242,7 +242,7 @@ ctrl shift P 选择生成
 
 找到了这里
 
-![](assets/54b153e2c8b81f8efe960ba4e1f99bc3.png)
+![](./assets/54b153e2c8b81f8efe960ba4e1f99bc3.png)
 
 ```
 fprintf(stderr, "Unsupported opcode: %s\n", Pyc::OpcodeName(opcode &amp; 0xFF));
@@ -252,7 +252,7 @@ cleanBuild = false;
 
 这里的return语句就是我们没找到反编译的字节之后，我就不再继续反编译return，我们注释掉这条语句，重新按照（二）中的过程进行编译，这样子我们的pycdc就是不会再return的工具了
 
-![](assets/2015fa6a55066702eea4cdba0837d36c.png)
+![](./assets/2015fa6a55066702eea4cdba0837d36c.png)
 
 ```
 # Source Generated with Decompyle++

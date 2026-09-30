@@ -1,8 +1,8 @@
 {
-  "name": "yskye",
+  "name": "ysk-ye-blog",
   "type": "module",
-  "version": "1.0.0",
-  "description": "云书景的博客",
+  "version": "2.0.0",
+  "description": "云书景的个人知识库与技术博客 —— 基于 VuePress 2 + vuepress-theme-plume",
   "author": "云书景 <143301977+yunshujing@users.noreply.github.com>",
   "license": "MIT",
   "engines": {
@@ -16,13 +16,12 @@
     "vp-update": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-webpack": "2.0.0-rc.17",
-    "vuepress": "2.0.0-rc.17",
-    "vuepress-theme-plume": "1.0.0-rc.107",
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "vuepress": "2.0.0-rc.31",
+    "vuepress-theme-plume": "1.0.0-rc.211",
     "http-server": "^14.1.1",
-    "vue": "^3.5.10",
-    "sass-loader": "^16.0.2",
     "sass-embedded": "^1.79.4",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "vue": "^3.5.10"
   }
 }
