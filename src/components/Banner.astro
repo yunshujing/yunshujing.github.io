@@ -26,7 +26,6 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
             {carouselImgsList.map((img, index) => (
               <li
                 class="item lozad"
-                style={{ animationDelay: `${index * 6}s` }}
                 data-background-image={img}
               />
             ))}
@@ -63,43 +62,6 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
   </div>
 </div>
 
-<script>
-  const styleElement = document.createElement("style");
-  const carouselImgs = document.getElementById("carousel_imgs");
-  const carouselImgsCount = carouselImgs?.children.length ?? 0;
-
-  const carouselAnimation = `
-  @keyframes carousel-animation {
-    0% {
-      opacity: 0;
-      transform: scale(1);
-    }
-    3% {
-      opacity: 1;
-    }
-    8% {
-      opacity: 1;
-      animation-timing-function: ease-out;
-    }
-    ${100 / carouselImgsCount}% {
-      opacity: 1;
-    }
-    ${100 / carouselImgsCount + 50 / carouselImgsCount}% {
-      opacity: 0;
-      animation-timing-function: ease-out;
-    }
-    100% {
-      opacity: 0;
-      transform: scale(1);
-    }
-  }
-  `;
-  styleElement.textContent = carouselAnimation;
-  let bannerElement = document.getElementById("banner");
-  if (bannerElement && !bannerElement.querySelector("style"))
-    bannerElement.appendChild(styleElement);
-</script>
-
 <style define:vars={{ carouselAnimationTime }}>
   .banner {
     @apply relative h-[calc(var(--banner-height)*3/4)] opacity-100 lg:h-[var(--banner-height)];
@@ -111,9 +73,7 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
   }
 
   .carousel .item {
-    @apply absolute left-0 top-0 z-0 h-full w-full origin-center bg-cover bg-center bg-no-repeat opacity-0;
-    animation: carousel-animation var(--carouselAnimationTime) linear infinite
-      0s;
+    @apply absolute left-0 top-0 z-0 h-full w-full origin-center bg-cover bg-center bg-no-repeat opacity-100;
     backface-visibility: hidden;
     transform-style: preserve-3d;
   }
