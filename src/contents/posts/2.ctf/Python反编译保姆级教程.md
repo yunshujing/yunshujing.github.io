@@ -4,7 +4,7 @@ published: 2024-12-07
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
-cover: /covers/ctf.svg
+cover: /covers/posts/Python反编译保姆级教程.png
 ---
 
 ## 【出现的形式】

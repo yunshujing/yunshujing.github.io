@@ -4,7 +4,7 @@ published: 2024-10-11
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
-cover: /covers/ctf.svg
+cover: /covers/posts/ida在kali-linux虚拟机上进行远程调试.png
 ---
 
 > 文章转载自[ida在kali-linux虚拟机上进行远程调试（提供可能的解决无法连接的思路）内含本机与linux虚拟机无法互相ping通的解决方法（见标题四.（七））_ida远程调试linux-CSDN博客](https://blog.csdn.net/liKeQing1027520/article/details/137482798)

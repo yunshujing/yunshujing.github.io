@@ -4,7 +4,7 @@ published: 2024-10-15
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
-cover: /covers/ctf.svg
+cover: /covers/posts/ida数据Patch增强-LazyIDA插件.png
 ---
 
 ## 一，下载插件

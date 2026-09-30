@@ -50,7 +50,7 @@ const YukinaConfig: Configuration = {
   maxFooterTagChip: 24,
 
   banners: [
-    "/banner-main.svg",
+    "/banner.jpg",
   ],
 
   slugMode: "HASH", // 'RAW' | 'HASH'

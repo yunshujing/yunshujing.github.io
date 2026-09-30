@@ -4,7 +4,7 @@ published: 2024-11-06
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
-cover: /covers/ctf.svg
+cover: /covers/posts/linux的kali安装以及配置.png
 ---
 
 ## 安装Kali

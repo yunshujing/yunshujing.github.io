@@ -4,7 +4,7 @@ published: 2024-10-11
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
-cover: /covers/ctf.svg
+cover: /covers/posts/CTF-reverse逆向分析解题常用脚本汇总.png
 ---
 
 > 文章转载自[CTF-reverse逆向分析解题常用脚本汇总_ctf reverse-CSDN博客](https://blog.csdn.net/liKeQing1027520/article/details/138533062?spm=1001.2014.3001.5502)

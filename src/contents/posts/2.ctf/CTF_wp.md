@@ -4,7 +4,7 @@ published: 2024-10-13
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
-cover: /covers/ctf.svg
+cover: /covers/posts/CTF_wp.jpeg
 ---
 
 ## 知识点

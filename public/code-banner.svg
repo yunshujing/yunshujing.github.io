@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="640" viewBox="0 0 1920 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.7">
+      <stop offset="0" stop-color="#0a0e17"/>
+      <stop offset="1" stop-color="#0d1424"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0.82" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#1f3a68" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#1f3a68" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="0.12" cy="0.95" r="0.55">
+      <stop offset="0" stop-color="#2b2255" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2b2255" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="640" fill="url(#bg)"/>
+  <rect width="1920" height="640" fill="url(#blueGlow)"/>
+  <rect width="1920" height="640" fill="url(#purpleGlow)"/>
+
+  <!-- 大括号装饰 -->
+  <text x="1500" y="560" font-family="Menlo,Consolas,monospace" font-size="430" fill="#58a6ff" opacity="0.07">&#123;&#125;</text>
+  <text x="180" y="180" font-family="Menlo,Consolas,monospace" font-size="60" fill="#8b949e" opacity="0.12">~/blog/src</text>
+
+  <!-- 编辑器窗口 -->
+  <g transform="translate(140 120)">
+    <rect width="640" height="400" rx="10" fill="#0d1117" stroke="#222b3a" stroke-width="1.5" opacity="0.97"/>
+    <rect width="640" height="40" rx="10" fill="#161b26"/>
+    <rect y="34" width="640" height="8" fill="#161b26"/>
+    <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+    <circle cx="46" cy="20" r="6" fill="#ffbd2e"/>
+    <circle cx="68" cy="20" r="6" fill="#27c93f"/>
+    <text x="320" y="26" font-family="Menlo,Consolas,monospace" font-size="13" fill="#8b949e" text-anchor="middle">quick_sort.py</text>
+
+    <g font-family="Menlo,Consolas,monospace" font-size="15">
+      <text x="24"  y="78"  fill="#30363d">1</text>
+      <text x="52"  y="78"><tspan fill="#7d8590"># 快速排序 Quick Sort</tspan></text>
+      <text x="24"  y="106" fill="#30363d">2</text>
+      <text x="52"  y="106"><tspan fill="#ff7b72">def </tspan><tspan fill="#d2a8ff">quick_sort</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#79c0ff">arr</tspan><tspan fill="#c9d1d9">):</tspan></text>
+      <text x="24"  y="134" fill="#30363d">3</text>
+      <text x="52"  y="134"><tspan fill="#ff7b72">    if </tspan><tspan fill="#79c0ff">len</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#79c0ff">arr</tspan><tspan fill="#c9d1d9">) &lt;= </tspan><tspan fill="#79c0ff">1</tspan><tspan fill="#c9d1d9">:</tspan></text>
+      <text x="24"  y="162" fill="#30363d">4</text>
+      <text x="52"  y="162"><tspan fill="#ff7b72">        return </tspan><tspan fill="#79c0ff">arr</tspan></text>
+      <text x="24"  y="190" fill="#30363d">5</text>
+      <text x="52"  y="190"><tspan fill="#79c0ff">    pivot </tspan><tspan fill="#c9d1d9">= </tspan><tspan fill="#79c0ff">arr</tspan><tspan fill="#c9d1d9">[</tspan><tspan fill="#79c0ff">len</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#79c0ff">arr</tspan><tspan fill="#c9d1d9">) // </tspan><tspan fill="#79c0ff">2</tspan><tspan fill="#c9d1d9">]</tspan></text>
+      <text x="24"  y="218" fill="#30363d">6</text>
+      <text x="52"  y="218"><tspan fill="#79c0ff">    left </tspan><tspan fill="#c9d1d9">= [</tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#ff7b72">for </tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#ff7b72">in </tspan><tspan fill="#79c0ff">arr </tspan><tspan fill="#ff7b72">if </tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#c9d1d9">&lt; </tspan><tspan fill="#79c0ff">pivot</tspan><tspan fill="#c9d1d9">]</tspan></text>
+      <text x="24"  y="246" fill="#30363d">7</text>
+      <text x="52"  y="246"><tspan fill="#79c0ff">    mid </tspan><tspan fill="#c9d1d9">= [</tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#ff7b72">for </tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#ff7b72">in </tspan><tspan fill="#79c0ff">arr </tspan><tspan fill="#ff7b72">if </tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#c9d1d9">== </tspan><tspan fill="#79c0ff">pivot</tspan><tspan fill="#c9d1d9">]</tspan></text>
+      <text x="24"  y="274" fill="#30363d">8</text>
+      <text x="52"  y="274"><tspan fill="#79c0ff">    right </tspan><tspan fill="#c9d1d9">= [</tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#ff7b72">for </tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#ff7b72">in </tspan><tspan fill="#79c0ff">arr </tspan><tspan fill="#ff7b72">if </tspan><tspan fill="#79c0ff">x </tspan><tspan fill="#c9d1d9">&gt; </tspan><tspan fill="#79c0ff">pivot</tspan><tspan fill="#c9d1d9">]</tspan></text>
+      <text x="24"  y="302" fill="#30363d">9</text>
+      <text x="52"  y="302"><tspan fill="#ff7b72">    return </tspan><tspan fill="#d2a8ff">quick_sort</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#79c0ff">left</tspan><tspan fill="#c9d1d9">) + </tspan><tspan fill="#79c0ff">mid </tspan><tspan fill="#c9d1d9">+ </tspan><tspan fill="#d2a8ff">quick_sort</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#79c0ff">right</tspan><tspan fill="#c9d1d9">)</tspan></text>
+      <text x="24"  y="330" fill="#30363d">10</text>
+      <text x="52"  y="330"><tspan fill="#d2a8ff">print</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#d2a8ff">quick_sort</tspan><tspan fill="#c9d1d9">([</tspan><tspan fill="#79c0ff">3</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#79c0ff">6</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#79c0ff">2</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#79c0ff">8</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#79c0ff">1</tspan><tspan fill="#c9d1d9">]))</tspan></text>
+    </g>
+  </g>
+
+  <path d="M0 632 H1920" stroke="url(#accentLine)" stroke-width="1.5" opacity="0.8"/>
+</svg>
