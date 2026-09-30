@@ -149,13 +149,8 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
   }
 
   .carousel {
-    @apply absolute left-0 top-0 -z-10 block h-[calc(var(--banner-height)*3/4)] w-full overflow-hidden bg-white lg:h-[var(--banner-height)];
+    @apply absolute left-0 top-0 -z-10 block h-[calc(var(--banner-height)*3/4)] w-full overflow-hidden lg:h-[var(--banner-height)];
     animation-fill-mode: forwards;
-  }
-
-  .carousel::before {
-    @apply absolute left-0 top-0 z-10 block h-full w-full bg-black/25 transition-all content-[''];
-    @apply dark:bg-black/30;
   }
 
   .carousel .item {
@@ -167,12 +162,7 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
   }
 
   .cover {
-    @apply absolute left-0 top-0 z-0 block h-[var(--banner-height)] w-full overflow-hidden bg-white;
-  }
-
-  .cover::before {
-    @apply absolute left-0 top-0 z-10 block h-full w-full bg-black/25 transition-all content-[''];
-    @apply dark:bg-black/30;
+    @apply absolute left-0 top-0 z-0 block h-[var(--banner-height)] w-full overflow-hidden;
   }
 
   .cover .item {
