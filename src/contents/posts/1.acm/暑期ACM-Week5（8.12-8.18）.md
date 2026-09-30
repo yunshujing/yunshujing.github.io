@@ -4,6 +4,7 @@ published: 2024-08-19
 draft: false
 tags: [学习, 代码, ACM]
 category: ACM
+cover: /covers/acm.svg
 ---
 
 <a name="hLNzz"></a>

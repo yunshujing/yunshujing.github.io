@@ -4,6 +4,7 @@ published: 2024-12-07
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
+cover: /covers/ctf.svg
 ---
 
 ## 【出现的形式】

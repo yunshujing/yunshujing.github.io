@@ -4,6 +4,7 @@ published: 2024-08-05
 draft: false
 tags: [学习, 代码, ACM]
 category: ACM
+cover: /covers/acm.svg
 ---
 
 <a name="lYPCh"></a>

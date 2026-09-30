@@ -4,6 +4,7 @@ published: 2023-10-10
 draft: false
 tags: [markdown]
 category: 预览
+cover: /covers/preview.svg
 ---
 
 ## 1 Markdown语言简介

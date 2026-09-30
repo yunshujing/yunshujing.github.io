@@ -4,6 +4,7 @@ published: 2024-10-11
 draft: false
 tags: [学习, CTF, 逆向]
 category: CTF
+cover: /covers/ctf.svg
 ---
 
 > 文章转载自[ida数据提取技巧-利用LazyIDA插件实现一键提取无法识别的字符串-CSDN博客](https://blog.csdn.net/liKeQing1027520/article/details/137384900)
