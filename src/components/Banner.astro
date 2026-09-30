@@ -177,3 +177,27 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
     }
   }
 </style>
+
+<script>
+  // 一言池：加载时随机替换副标题（无动画，刷新即换，自包含不依赖外部 API）
+  const quotes = [
+    "不积跬步，无以至千里。",
+    "Talk is cheap. Show me the code.",
+    "宝剑锋从磨砺出，梅花香自苦寒来。",
+    "Stay hungry, stay foolish.",
+    "纸上得来终觉浅，绝知此事要躬行。",
+    "种一棵树最好的时间是十年前，其次是现在。",
+    "静水流深，沧笙踏歌。",
+    "代码如诗，人生如梦。",
+    "知不足而奋进，望远山而前行。",
+    "仰望星空，脚踏实地。",
+    "山不让尘，川不辞盈。",
+    "少一些功利主义的追求，多一些不为什么的坚持。",
+    "每一个不曾起舞的日子，都是对生命的辜负。",
+    "路虽远，行则将至；事虽难，做则必成。",
+  ];
+  const el = document.querySelector(".banner .subtitle");
+  if (el) {
+    el.textContent = quotes[Math.floor(Math.random() * quotes.length)];
+  }
+</script>
