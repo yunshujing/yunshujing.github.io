@@ -205,9 +205,16 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
   ];
   const el = document.querySelector(".banner .subtitle");
   if (el) {
-    // 在线优先且不闪：首帧保持空白，等在线一言结果；成功显示在线句、失败/超时回落本地句（全程只出现一次文案）
+    // 在线优先且不闪：首帧保持空白等在线一言；无论成功/失败/超时，文案只落定一次（防竞态双写）
+    let settled = false;
+    const settle = (text) => {
+      if (!settled) {
+        settled = true;
+        el.textContent = text;
+      }
+    };
     const fallback = () => {
-      el.textContent = quotes[Math.floor(Math.random() * quotes.length)];
+      settle(quotes[Math.floor(Math.random() * quotes.length)]);
     };
     try {
       const ctrl = new AbortController();
@@ -218,7 +225,7 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
       fetch("https://v1.hitokoto.cn/?encode=json", { signal: ctrl.signal })
         .then((r) => r.json())
         .then((d) => {
-          if (d && d.hitokoto) el.textContent = d.hitokoto;
+          if (d && d.hitokoto) settle(d.hitokoto);
           else fallback();
         })
         .catch(() => fallback());
