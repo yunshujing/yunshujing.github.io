@@ -1,0 +1,542 @@
+<!DOCTYPE html><html lang="zh-CN" data-astro-cid-37fxchfa> <!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v5.3.0"><!-- Canonical URL --><link rel="canonical" href="https://yunshujing.github.io/posts/6cba2e78/"><!-- Primary Meta Tags --><title>YSKYE&#39;S BLOG</title><meta name="title" content="YSKYE'S BLOG"><meta name="description" content="云书景的个人知识库与技术博客"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://yunshujing.github.io/posts/6cba2e78/"><meta property="og:title" content="YSKYE'S BLOG"><meta property="og:description" content="云书景的个人知识库与技术博客"><!-- <meta property="og:image" content={new URL(image, Astro.url)} /> --><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://yunshujing.github.io/posts/6cba2e78/"><meta property="twitter:title" content="YSKYE'S BLOG"><meta property="twitter:description" content="云书景的个人知识库与技术博客"><!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> --><!-- RSS AutoDiscovery --><link rel="alternate" type="application/rss+xml" title="YSKYE'S BLOG" href="https://yunshujing.github.io/rss.xml"><!-- SiteMap --><link rel="sitemap" href="/sitemap-index.xml"><!-- CSS --><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex/dist/katex.min.css"><!-- Fonts --><link rel="preconnect" href="https://fonts.bunny.net"><link href="https://fonts.bunny.net/css?family=noto-sans-sc:100,200,300,400,500,600,700,800,900|raleway:500,700" rel="stylesheet"><script type="module" src="/_astro/ScriptSetup.astro_astro_type_script_index_0_lang.D_IBASpI.js"></script><link rel="stylesheet" href="/_astro/_page_.Q0u9iSxt.css">
+<style>.article code:not(pre code):before{content:none!important}.article code:not(pre code):after{content:none!important}.article code:not(pre code){font-size:.875rem;line-height:1.25rem;font-family:var(--code-font)!important;border-radius:4px;color:var(--primary-color)!important;background-color:var(--primary-color-lighten)!important}.article h1,.article h2,.article h3,.article h4,.article h5,.article h6{display:flex;flex-direction:row;align-items:center;position:relative}.article h1:before,.article h2:before,.article h3:before,.article h4:before,.article h5:before,.article h6:before{position:absolute;display:block;content:" ";background-color:var(--primary-color);top:2.5px;bottom:3px;width:.3rem;border-radius:4px}.article h1>a,.article h2>a,.article h3>a,.article h4>a,.article h5>a,.article h6>a{margin:.5rem}.article li::marker{color:var(--primary-color)!important}.article blockquote{border-inline-start-color:var(--primary-color)!important;padding:.125rem .75rem}@media (min-width: 1024px){.article blockquote{padding-left:1rem}}.article blockquote{font-style:normal!important;border-radius:.25rem;background-color:var(--primary-color-transparent)!important}.article blockquote blockquote{margin-top:.25rem;margin-bottom:.25rem}.article blockquote p{padding:0;margin:0;color:var(--text-color)}.article blockquote p:first-child{padding-top:.3rem}.article blockquote p:last-child{padding-bottom:.3rem}.article blockquote p:before{content:""!important}.article blockquote p:after{content:""!important}.article a{color:var(--primary-color)!important}.article hr{margin-top:1.5rem;margin-bottom:1.5rem;border-color:var(--primary-color-lighten)!important}.article pre{margin-top:.75rem;margin-bottom:.75rem;overflow:hidden!important}.article span.line{font-size:14px!important;line-height:normal;font-family:var(--code-font)!important}.article code{counter-reset:line}.article span.line:before{content:counter(line);counter-increment:line;direction:rtl;display:inline-block;margin-right:1rem;width:1rem;color:#ffffff40}.article span.line:last-child:empty,.article span.line:last-child:has(>.article span:empty:only-child){display:none}.article p{margin-top:.75rem;margin-bottom:.75rem}.article .astro-code{border-radius:.75rem!important;scrollbar-width:thin}.fonts[data-astro-cid-er4ir5rx]{font-family:var(--primary-font)}
+.article-wrapper[data-astro-cid-gjtny2mx]{margin-left:.75rem;margin-right:.75rem;border-radius:1rem;background-color:var(--card-color);padding:1.5rem 1.25rem}@media (min-width: 1024px){.article-wrapper[data-astro-cid-gjtny2mx]{margin-left:0;margin-right:0;padding:2.25rem 2.5rem}}.article[data-astro-cid-gjtny2mx]{display:flex;flex-direction:column;font-size:var(--primary-font)}
+</style>
+<link rel="stylesheet" href="/_astro/index.BLZcjYtd.css"><script type="module" src="/_astro/page.BPUpBCYk.js"></script><body class="overflow-y-hidden" data-astro-cid-37fxchfa>  <nav class="nav" id="nav" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="relative flex h-[4rem] w-full items-center justify-between overflow-visible lg:h-[4.5rem]" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="brand after:content-['']" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <button id="menu-switcher" type="button" class="h-[40px] w-[44px] content-center" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <svg width="24" height="24" id="menu-icon-closed" class="mx-auto hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:close-to-menu-transition">   <symbol id="ai:line-md:close-to-menu-transition" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5L12 12L19 5M12 12H12M5 19L12 12L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L12 12L19 5M12 12H12M5 19L12 12L19 19;M5 5L12 5L19 5M5 12H19M5 19L12 19L19 19"/></path></symbol><use href="#ai:line-md:close-to-menu-transition"></use>  </svg> <svg width="24" height="24" id="menu-icon-opened" class="mx-auto hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:menu-to-close-transition">   <symbol id="ai:line-md:menu-to-close-transition" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5L12 5L19 5M5 12H19M5 19L12 19L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L12 5L19 5M5 12H19M5 19L12 19L19 19;M5 5L12 12L19 5M12 12H12M5 19L12 12L19 19"/></path></symbol><use href="#ai:line-md:menu-to-close-transition"></use>  </svg> </button> <a class="title" href="/" data-astro-cid-ymhdp2rl style="--navCount: 4;"> YSKYE&#39;S BLOG </a> </div> <a class="brand-lg" href="/" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="title space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <svg width="32" height="32" data-astro-cid-ymhdp2rl="true" data-icon="heroicons:home">   <symbol id="ai:heroicons:home" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 12l8.955-8.955a1.124 1.124 0 0 1 1.59 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></symbol><use href="#ai:heroicons:home"></use>  </svg> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">YSKYE&#39;S BLOG</p> </div> </a> <div class="menu" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">首页</p> </a><a href="/archive" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">归档</p> </a><a href="/about" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">关于</p> </a><a href="https://github.com/yunshujing" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">GitHub</p> </a> </div> <div class="toolbar" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="lg:hidden" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="ZBlnUB" component-url="/_astro/MobileSearchBar.B5q-wLDh.js" component-export="default" renderer-url="/_astro/client.svelte.SqaDOZuU.js" props="{&quot;data-astro-cid-ymhdp2rl&quot;:[0,true]}" ssr client="only" opts="{&quot;name&quot;:&quot;MobileSearchBar&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island> </div> <div class="hidden lg:block" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <astro-island uid="Z2tLYYe" component-url="/_astro/SearchBar.tecJyGXn.js" component-export="default" renderer-url="/_astro/client.svelte.SqaDOZuU.js" props="{&quot;data-astro-cid-ymhdp2rl&quot;:[0,true]}" ssr client="only" opts="{&quot;name&quot;:&quot;SearchBar&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island> </div> <div class="theme" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <button type="button" id="theme-switcher" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <svg width="24" height="24" id="theme-icon-light" class="hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:moon-alt-to-sunny-outline-loop-transition">   <symbol id="ai:line-md:moon-alt-to-sunny-outline-loop-transition" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="2" stroke-dashoffset="2" d="M12 19v1M19 12h1M12 5v-1M5 12h-1"><animate fill="freeze" attributeName="d" begin="0.6s" dur="0.2s" values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" values="2;0"/></path><path stroke-dasharray="2" stroke-dashoffset="2" d="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5"><animate fill="freeze" attributeName="d" begin="0.8s" dur="0.2s" values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" values="2;0"/></path><animateTransform attributeName="transform" dur="30s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></g><mask id="lineMdMoonAltToSunnyOutlineLoopTransition0"><circle cx="12" cy="12" r="12" fill="#fff"/><circle cx="12" cy="12" r="8"><animate fill="freeze" attributeName="r" dur="0.4s" values="8;4"/></circle><circle cx="18" cy="6" r="12" fill="#fff"><animate fill="freeze" attributeName="cx" dur="0.4s" values="18;22"/><animate fill="freeze" attributeName="cy" dur="0.4s" values="6;2"/><animate fill="freeze" attributeName="r" dur="0.4s" values="12;3"/></circle><circle cx="18" cy="6" r="10"><animate fill="freeze" attributeName="cx" dur="0.4s" values="18;22"/><animate fill="freeze" attributeName="cy" dur="0.4s" values="6;2"/><animate fill="freeze" attributeName="r" dur="0.4s" values="10;1"/></circle></mask><circle cx="12" cy="12" r="10" mask="url(#lineMdMoonAltToSunnyOutlineLoopTransition0)" fill="currentColor"><animate fill="freeze" attributeName="r" dur="0.4s" values="10;6"/></circle></symbol><use href="#ai:line-md:moon-alt-to-sunny-outline-loop-transition"></use>  </svg> <svg width="24" height="24" id="theme-icon-dark" class="hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:sunny-outline-to-moon-alt-loop-transition">   <symbol id="ai:line-md:sunny-outline-to-moon-alt-loop-transition" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-dasharray="4" stroke-dashoffset="4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5"><animate id="lineMdSunnyOutlineToMoonAltLoopTransition0" fill="freeze" attributeName="stroke-dashoffset" begin="0.6s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+6s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+2s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+4s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+1.2s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+3.2s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+5.2s" dur="0.4s" values="0;4"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+1.8s" to="M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+3.8s" to="M12 4h1.5M12 4h-1.5M12 4v1.5M12 4v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+5.8s" to="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5"/></path><path d="M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5"><animate id="lineMdSunnyOutlineToMoonAltLoopTransition1" fill="freeze" attributeName="stroke-dashoffset" begin="1s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+6s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+2s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+4s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+1.2s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+3.2s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+5.2s" dur="0.4s" values="0;4"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+1.8s" to="M17 11h1.5M17 11h-1.5M17 11v1.5M17 11v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+3.8s" to="M18 12h1.5M18 12h-1.5M18 12v1.5M18 12v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+5.8s" to="M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5"/></path><path d="M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5"><animate id="lineMdSunnyOutlineToMoonAltLoopTransition2" fill="freeze" attributeName="stroke-dashoffset" begin="2.8s;lineMdSunnyOutlineToMoonAltLoopTransition2.begin+6s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+2s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+1.2s;lineMdSunnyOutlineToMoonAltLoopTransition2.begin+3.2s" dur="0.4s" values="0;4"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+1.8s" to="M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+5.8s" to="M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5"/></path></g><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><g><path stroke-dasharray="2" stroke-dashoffset="4" d="M12 21v1M21 12h1M12 3v-1M3 12h-1"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="4;2"/></path><path stroke-dasharray="2" stroke-dashoffset="4" d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" values="4;2"/></path><set fill="freeze" attributeName="opacity" begin="0.5s" to="0"/></g><path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" opacity="0"><set fill="freeze" attributeName="opacity" begin="0.5s" to="1"/></path></g><mask id="lineMdSunnyOutlineToMoonAltLoopTransition3"><circle cx="12" cy="12" r="12" fill="#fff"/><circle cx="12" cy="12" r="4"><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="4;8"/></circle><circle cx="22" cy="2" r="3" fill="#fff"><animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18"/><animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6"/><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="3;12"/></circle><circle cx="22" cy="2" r="1"><animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18"/><animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6"/><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="1;10"/></circle></mask><circle cx="12" cy="12" r="6" mask="url(#lineMdSunnyOutlineToMoonAltLoopTransition3)" fill="currentColor"><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="6;10"/><set fill="freeze" attributeName="opacity" begin="0.5s" to="0"/></circle></symbol><use href="#ai:line-md:sunny-outline-to-moon-alt-loop-transition"></use>  </svg> </button> </div> </div> </div> <div id="mobile-menu" class="px-3 transition-all" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <ul id="mobile-menu-nav" class="mobile-menu-nav mobile-menu-nav-closed flex flex-col space-y-6 overflow-hidden text-xl font-medium text-[var(--text-color)] transition-all duration-300" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">首页</span> </div> <svg width="1em" height="1em" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <symbol id="ai:cuida:caret-right-outline" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.793 19.707a1 1 0 0 1 0-1.414L14.086 12L7.793 5.707a1 1 0 0 1 1.414-1.414l6.293 6.293a2 2 0 0 1 0 2.828l-6.293 6.293a1 1 0 0 1-1.414 0" clip-rule="evenodd"/></symbol><use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li><li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/archive" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">归档</span> </div> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li><li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/about" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">关于</span> </div> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li><li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="https://github.com/yunshujing" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">GitHub</span> </div> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li> </ul> </div> </nav>  <script type="module">const l=e=>{const a=e.cloneNode(!0);return e.parentNode?.replaceChild(a,e),a},y=document.getElementById("menu-switcher"),s=document.getElementById("mobile-menu-nav"),r=document.getElementsByClassName("mobile-nav-item");let n=document.getElementById("menu-icon-closed"),o=document.getElementById("menu-icon-opened"),t=!1;const i=()=>{n.style.display=t?"block":"none",o.style.display=t?"none":"block",t?n=l(n):o=l(o),t?s.classList.replace("mobile-menu-nav-opened","mobile-menu-nav-closed"):s.classList.replace("mobile-menu-nav-closed","mobile-menu-nav-opened"),t=!t};y.addEventListener("click",i);for(let e=0;e<r.length;++e)r.item(e)?.addEventListener("click",i);document.addEventListener("click",e=>{!y.contains(e.target)&&!s.contains(e.target)&&t&&i()});const E=document.getElementById("theme-switcher");let c=document.getElementById("theme-icon-light"),d=document.getElementById("theme-icon-dark"),m=localStorage.getItem("theme")||"light";const h=e=>{document.documentElement.setAttribute("data-theme",e),localStorage.setItem("theme",e),m=e,d.style.display=e==="dark"?"block":"none",c.style.display=e==="light"?"block":"none",e==="dark"?d=l(d):c=l(c),document.documentElement.classList.toggle("dark",e==="dark")};E.addEventListener("click",()=>{h(m==="light"?"dark":"light")});document.addEventListener("DOMContentLoaded",()=>{h(m),n.style.display="block"});const u=document.getElementById("nav"),b=document.getElementById("banner"),p=b.offsetHeight-50;let g=0;window.addEventListener("scroll",()=>{p<window.scrollY&&window.scrollY>g?u.style.top="-72px":u.style.top="0",g=window.scrollY});</script> <script>
+  // load pagefind
+  async function loadPagefind() {
+    const pagefind = await import("/pagefind/pagefind.js");
+    await pagefind.options({
+      excerptLength: 20,
+    });
+    pagefind.init();
+    window.pagefind = pagefind;
+    pagefind.search("");
+  }
+  loadPagefind();
+</script> <div id="banner" class="banner onload-animation-fade-in" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <div class="transition-main banner-inner h-full w-full" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;">  <div class="cover" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <img class="item lozad" data-src="/art/code/code2.jpg" alt="PostCoverr" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> </div> <div class="relative h-[95%] w-full" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <div class="absolute left-1/2 top-1/2 w-4/5 -translate-x-1/2 -translate-y-1/2 lg:w-3/4" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <div class="flex flex-col" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <h1 class="title title-normal" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> 二进制学习建议 </h1> <h2 class="subtitle" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"></h2> </div> </div> </div> </div> <div class="waves" id="header-waves" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <defs data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"></path> </defs> <g class="parallax" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <use xlink:href="#gentle-wave" x="48" y="0" class="opacity-25" style="animation-delay:-2s;animation-duration:7s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> <use xlink:href="#gentle-wave" x="48" y="3" class="opacity-50" style="animation-delay:-3s;animation-duration:10s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> <use xlink:href="#gentle-wave" x="48" y="5" class="opacity-75" style="animation-delay:-4s;animation-duration:13s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> <use xlink:href="#gentle-wave" x="48" y="7" style="animation-delay:-5s;animation-duration:20s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> </g> </svg> </div> </div>  <script type="module">const a=["不积跬步，无以至千里。","宝剑锋从磨砺出，梅花香自苦寒来。","种一棵树最好的时间是十年前，其次是现在。","路虽远，行则将至；事虽难，做则必成。","知不足而奋进，望远山而前行。","每一个不曾起舞的日子，都是对生命的辜负。","Talk is cheap. Show me the code.","Stay hungry, stay foolish.","There are only two hard things: cache invalidation and naming.","先能跑，再跑得快。","Hello, world! 是每段旅途的起点。","代码会撒谎，注释会遗忘，只有测试诚实。","静水流深，沧笙踏歌。","山不让尘，川不辞盈。","纸上得来终觉浅，绝知此事要躬行。","会当凌绝顶，一览众山小。","长风破浪会有时，直挂云帆济沧海。","仰天大笑出门去，我辈岂是蓬蒿人。"],h=document.querySelector(".banner .subtitle");if(h){let n=!1;const l=t=>{n||(n=!0,h.textContent=t)},o=()=>{l(a[Math.floor(Math.random()*a.length)])};try{const t=new AbortController;setTimeout(()=>{t.abort(),o()},4e3),fetch("https://v1.hitokoto.cn/?encode=json",{signal:t.signal}).then(e=>e.json()).then(e=>{e&&e.hitokoto?l(e.hitokoto):o()}).catch(()=>o())}catch{o()}}</script><div class="main-container my-10" data-astro-cid-ouamjn2i> <div class="flex flex-row items-start xl:space-x-4" data-astro-cid-ouamjn2i> <div class="side-bar" data-astro-cid-ouamjn2i> <div class="flex w-full flex-row justify-center" data-astro-cid-f5u63ayj> <div class="flex flex-col space-y-3" data-astro-cid-f5u63ayj> <div class="onload-animation rounded-3xl bg-[var(--card-color)] p-3" style="animation-delay: var(--onload-animation-delay);" data-astro-cid-f5u63ayj> <a href="/about" class="avatar-wrapper" data-astro-cid-f5u63ayj> <img src="/avatar.png" alt="avatar" class="avatar lozad select-none" data-astro-cid-f5u63ayj> </a> <div class="username mt-4" data-astro-cid-f5u63ayj> <p data-astro-cid-f5u63ayj>云书景 Yskye</p> </div> <p class="slogan mt-2 text-center text-[var(--text-color-lighten)]" data-astro-cid-f5u63ayj> 少年负壮气，奋烈自有时。 </p> <div class="mt-1 flex flex-row justify-center" data-astro-cid-f5u63ayj> <div class="flex w-[184px] flex-wrap justify-center gap-2" data-astro-cid-f5u63ayj> <a href="https://github.com/yunshujing" target="_blank"> <div class="flex h-10 w-10 flex-col justify-center rounded-lg transition-all hover:brightness-75 dark:hover:brightness-125"> <div class="flex flex-row justify-center"> <svg width="24" height="24" class="text-[var(--primary-color)]" data-icon="line-md:github-loop">   <symbol id="ai:line-md:github-loop" viewBox="0 0 24 24"><mask id="lineMdGithubLoop0" width="24" height="24" x="0" y="0"><g fill="#fff"><ellipse cx="9.5" cy="9" rx="1.5" ry="1"/><ellipse cx="14.5" cy="9" rx="1.5" ry="1"/></g></mask><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="32" stroke-dashoffset="32" d="M12 4c1.67 0 2.61 0.4 3 0.5c0.53 -0.43 1.94 -1.5 3.5 -1.5c0.34 1 0.29 2.22 0 3c0.75 1 1 2 1 3.5c0 2.19 -0.48 3.58 -1.5 4.5c-1.02 0.92 -2.11 1.37 -3.5 1.5c0.65 0.54 0.5 1.87 0.5 2.5c0 0.73 0 3 0 3M12 4c-1.67 0 -2.61 0.4 -3 0.5c-0.53 -0.43 -1.94 -1.5 -3.5 -1.5c-0.34 1 -0.29 2.22 0 3c-0.75 1 -1 2 -1 3.5c0 2.19 0.48 3.58 1.5 4.5c1.02 0.92 2.11 1.37 3.5 1.5c-0.65 0.54 -0.5 1.87 -0.5 2.5c0 0.73 0 3 0 3"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.7s" values="32;0"/></path><path stroke-dasharray="10" stroke-dashoffset="10" d="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5"><animate attributeName="d" dur="3s" repeatCount="indefinite" values="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5;M9 19c-1.406 0-3-.5-4-.5-.532 0-1 0-2-.5;M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" values="10;0"/></path></g><rect width="8" height="4" x="8" y="11" fill="currentColor" mask="url(#lineMdGithubLoop0)"><animate attributeName="y" dur="10s" keyTimes="0;0.45;0.46;0.54;0.55;1" repeatCount="indefinite" values="11;11;7;7;11;11"/></rect></symbol><use href="#ai:line-md:github-loop"></use>  </svg> </div> </div> </a><a href="https://space.bilibili.com/214528017" target="_blank"> <div class="flex h-10 w-10 flex-col justify-center rounded-lg transition-all hover:brightness-75 dark:hover:brightness-125"> <div class="flex flex-row justify-center"> <svg width="24" height="24" class="text-[var(--primary-color)]" data-icon="mingcute:bilibili-line">   <symbol id="ai:mingcute:bilibili-line" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M6.445 3.168a1 1 0 0 1 1.387.277L9.535 6h4.93l1.703-2.555a1 1 0 0 1 1.664 1.11L16.87 6H18a4 4 0 0 1 4 4v7a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-7a4 4 0 0 1 4-4h1.131l-.963-1.445a1 1 0 0 1 .277-1.387M8.986 8H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2H9.016zM9 11a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1m6 0a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"/></g></symbol><use href="#ai:mingcute:bilibili-line"></use>  </svg> </div> </div> </a> </div> </div> </div> <!-- categories --> <div class="onload-animation space-y-2 rounded-3xl bg-[var(--card-color)] p-3" style="animation-delay: calc(var(--onload-animation-delay) + 1 * var(--onload-animation-interval));" data-astro-cid-f5u63ayj> <div class="title m-[0.375rem]" data-astro-cid-f5u63ayj> <a href="/categories/" class="pl-4 text-xl font-bold text-[var(--text-color)] transition-colors hover:text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 分类 </a> </div> <div class="relative flex flex-col" data-astro-cid-f5u63ayj> <a href="/categories/fa1cffa1" class="category flex flex-row items-center justify-between rounded-lg px-3 py-2 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-f5u63ayj> <p class="text-[var(--text-color)] transition-all" data-astro-cid-f5u63ayj> ACM </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 6 </span> </a><a href="/categories/af967908" class="category flex flex-row items-center justify-between rounded-lg px-3 py-2 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-f5u63ayj> <p class="text-[var(--text-color)] transition-all" data-astro-cid-f5u63ayj> CTF </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 8 </span> </a><a href="/categories/60db1afb" class="category flex flex-row items-center justify-between rounded-lg px-3 py-2 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-f5u63ayj> <p class="text-[var(--text-color)] transition-all" data-astro-cid-f5u63ayj> 课程 </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 1 </span> </a>  </div> </div> <!-- tags --> <div class="onload-animation space-y-2 rounded-3xl bg-[var(--card-color)] p-3" style="animation-delay: calc(var(--onload-animation-delay) + 2 * var(--onload-animation-interval));" data-astro-cid-f5u63ayj> <div class="title m-[0.375rem]" data-astro-cid-f5u63ayj> <a href="/tags/" class="pl-4 text-xl font-bold text-[var(--text-color)] transition-colors hover:text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 标签 </a> </div> <div class="relative flex max-w-[224px] flex-row flex-wrap" data-astro-cid-f5u63ayj> <a href="/tags/2118cbc1" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 学习 </p> </a><a href="/tags/e6f04ffb" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 代码 </p> </a><a href="/tags/fa1cffa1" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> ACM </p> </a><a href="/tags/af967908" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> CTF </p> </a><a href="/tags/2e8ec0f0" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 逆向 </p> </a><a href="/tags/6a2a781c" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> PWN </p> </a>  </div> </div> </div> </div>  </div> <div class="transition-leaving w-full space-y-8" data-astro-cid-ouamjn2i> <main class="content onload-animation" data-astro-cid-ouamjn2i>   <div class="article-wrapper" data-astro-cid-gjtny2mx> <div class="article" data-astro-cid-gjtny2mx> <div class="prose prose-sm lg:prose-base dark:prose-invert shrink max-w-full ">  <div class="hidden" data-pagefind-body data-pagefind-weight="10" data-pagefind-meta="title">二进制学习建议</div><div data-pagefind-body><h2 id="前置要求"><a aria-hidden="true" tabindex="-1" href="#前置要求"><span class="icon icon-link"></span></a><font style="color:#DF2A3F;">前置要求</font></h2>
+<ul>
+<li><font style="color:#DF2A3F;">准备好电脑能用的 VPN，推荐 Cloudflare Warp，没有账号的来找我要。</font></li>
+<li><font style="color:#DF2A3F;">下载 VMware Workstation 虚拟机并安装 Kali Linux，后续学习我不管别人怎么建议的，</font><strong><font style="color:#DF2A3F;">必须</font></strong><font style="color:#DF2A3F;">在 Linux 中完成代码的编写、编译、运行。</font></li>
+<li><font style="color:#DF2A3F;">注册阿里通义千问、腾讯混元大模型、百度文心一言这几个人工智能，有能力的可以使用 ChatGPT Plus（这个最好但是需要付费的 VPN）有问题首先问人工智能并通过 Google 找答案（不允许使用百度搜索答案）英语不行装沉浸式翻译插件或者用 deepL 翻译，问题解决不了第一时间dd我，看到会回（别不查就问）</font></li>
+<li><strong><font style="color:#DF2A3F;">注册语雀记录归纳学习笔记及心得，锻炼知识归纳能力也能防止学了又忘的健忘型选手，也可以用于企业面试复习，百利无一害的习惯</font></strong></li>
+</ul>
+<h2 id="第一阶段编程基础"><a aria-hidden="true" tabindex="-1" href="#第一阶段编程基础"><span class="icon icon-link"></span></a>第一阶段：编程基础</h2>
+<ul>
+<li>掌握 C 语言基础语法，必须清楚比特运算（<code>AND``OR``NOT``XOR</code>）的原理（后续会遇到大量运用比特运算的加密）、指针及数组的使用、内存分配。推荐资源：浙大翁凯C程序设计、阮一峰C教程、黑书C程序设计</li>
+<li>掌握 Linux 的基础操作及编写 C 代码并运行的方法（熟悉 Linux 的基本使用，安装 Sublime Text，在命令行中使用 gcc 编译 c 代码并运行，遇到困难首先考虑问人工智能，解决不了来问我）</li>
+<li>掌握一定的数据结构基础，熟练掌握链表与栈这两种结构，推荐资源：Hello算法</li>
+<li>掌握基础的 Python 代码编写能力。推荐资源：网易云课堂大熊 Python（我买过了直接找我要账号就行）</li>
+</ul>
+<h2 id="第二阶段冯诺依曼架构基础"><a aria-hidden="true" tabindex="-1" href="#第二阶段冯诺依曼架构基础"><span class="icon icon-link"></span></a>第二阶段：冯诺依曼架构基础</h2>
+<ul>
+<li>计算机组成原理：清楚 CPU 为什么能理解二进制指令，推荐资源：ELE实验室从0开始设计一台计算机</li>
+<li>汇编语言：清楚汇编语言如何操作内存与寄存器，清楚汇编语言和二进制指令的关系，推荐资源：王爽汇编语言，阿布编程系列视频</li>
+</ul>
+<p>要求掌握：汇编语言基础、godbolt.org 的使用、C 源代码与汇编语言间的关联</p>
+<p>学习建议：在掌握汇编语言基础后找阮一峰的C语言教程再看一遍，边看边用 godbolt.org 查看 C 语言与汇编语言的对应关系，尝试理解C语言是如何操作内存的</p>
+<h2 id="第三阶段软件构建原理"><a aria-hidden="true" tabindex="-1" href="#第三阶段软件构建原理"><span class="icon icon-link"></span></a>第三阶段：软件构建原理</h2>
+<p>了解 C 语言从源代码到可执行文件的全过程：预处理、编译、汇编、链接。</p>
+<ul>
+<li>预处理：C语言饱受诟病的一个特性，大部分过程为宏展开与条件编译、无需深究</li>
+<li>编译：编译器对 C 代码进行词法分析、句法分析、构建AST树、最后将c代码转换为汇编代码（涉及领域：编译原理）</li>
+<li><font style="color:#5C8D07;">汇编：将汇编代码转换为对应的 CPU 指令机器码（涉及领域：计算机组成原理、指令集、汇编语言）</font></li>
+<li><font style="color:#5C8D07;">链接：将多个汇编后的二进制文件与系统库函数文件整合成一个可执行程序（涉及领域：程序链接、系统库、运行时库，可执行文件格式）</font></li>
+</ul>
+<p>学习建议：因为这个阶段涉及到大量底层知识，熟练掌握的可能性几乎为零，目前大致了解原理即可，后续用到再深入研究）</p>
+<p>推荐资料：忘了看过哪些好的资料了，bilibili 去翻一翻</p>
+<h2 id="第四阶段操作系统为何能运行成千上万的软件"><a aria-hidden="true" tabindex="-1" href="#第四阶段操作系统为何能运行成千上万的软件"><span class="icon icon-link"></span></a>第四阶段：操作系统为何能运行成千上万的软件</h2>
+<ul>
+<li>了解操作系统的原理，了解系统中断 syscall 是什么，了解内核态 用户态（ring0 ring3）是什么</li>
+<li>了解可执行文件的构成（PE / ELF 文件格式）</li>
+<li>搞懂什么是系统库、运行时库（dll / so 文件）</li>
+<li>再次学习静态链接、动态链接的目的并清楚链接器如何对符号进行重定位</li>
+<li>搞懂程序是如何被操作系统加载器装载至内存并运行的，掌握可执行文件段与虚拟地址的对应关系（.data 段 .bss 段 .text 段 —> 内存数据区 栈区 堆区 库函数区），弄懂之前写的 C 语言程序为什么会出现 segmentation fault 崩溃，弄懂 shellcode 为什么不需要操作系统加载即可运行</li>
+</ul>
+<p>推荐资料：程序员的自我修养：链接、装载与库 （当参考书）Linux 源码趣读</p>
+<p>到了这里你对底层的理解已经超越了大部分的程序员，知识深度大概到了阿里 p5的级别，如果对二进制安全感兴趣或者想挑战自己对基础的理解可以选择进行二进制安全的学习 :)</p>
+<h2 id="第五阶段实战型打开二进制安全的大门"><a aria-hidden="true" tabindex="-1" href="#第五阶段实战型打开二进制安全的大门"><span class="icon icon-link"></span></a>第五阶段（实战型）：打开二进制安全的大门</h2>
+<p>到了这个阶段就大概分为了三个方向：</p>
+<ul>
+<li>逆向分析：分析程序逻辑，尝试进行破解
+<ul>
+<li>需要具备一定的算法与密码学基础</li>
+<li>掌握静态分析工具 ida ghidra 的使用</li>
+<li>了解反调试技术（UXP VMP 壳）及对抗方法</li>
+<li>了解其他语言的逆向分析，如 Python Lua Java</li>
+</ul>
+</li>
+<li>PWN：分析程序缺陷，并利用缺陷攻击程序
+<ul>
+<li>具备一定的逆向分析能力</li>
+<li>掌握 python pwntools 的使用</li>
+<li>掌握动态调试工具的使用 gdb pwngdb pwndbg 的使用</li>
+<li>掌握常见代码缺陷的利用方式：栈溢出 堆利用 堆喷射 UAF ret2shellcode ROP 链 etc）</li>
+<li>掌握操作系统对程序的保护 ALSR PIE 等及侧信道攻击方法</li>
+<li>掌握 patch diff 定位漏洞等技术</li>
+</ul>
+</li>
+<li>二进制武器开发与分析：
+<ul>
+<li>免杀，RootKit 技术</li>
+<li>二进制漏洞分析，虚拟机逃逸技术，IoT 漏洞挖掘，工控系统安全</li>
+<li>Windows 高级编程</li>
+</ul>
+</li>
+</ul>
+<p>推荐资料：bilibili 滴水逆向，知识星球：轩辕之风从0开始入门逆向</p>
+<h2 id="第六阶段学术型基于人工智能的二进制安全分析方法"><a aria-hidden="true" tabindex="-1" href="#第六阶段学术型基于人工智能的二进制安全分析方法"><span class="icon icon-link"></span></a>第六阶段（学术型）：基于人工智能的二进制安全分析方法</h2>
+<p>阅读相关的研究论文和开源项目（如TensorFlow、PyTorch），并实践使用这些工具分析二进制文件</p>
+<hr>
+<p><strong>CTF 逆向工程（Reverse Engineering）和 Pwn 学习路线及建议</strong></p>
+<p>参加 CTF（Capture The Flag）比赛是提升网络安全实践技能的绝佳方式，尤其是在逆向工程和 Pwn（二进制漏洞利用）领域。以下是一份详细的学习路线，旨在指导你从基础知识到高级技术的逐步提升。</p>
+<hr>
+<h3 id="前置要求-1"><a aria-hidden="true" tabindex="-1" href="#前置要求-1"><span class="icon icon-link"></span></a><strong>前置要求</strong></h3>
+<p>在深入学习逆向工程和 Pwn 之前，确保你已经具备以下基础：</p>
+<ol>
+<li><strong>编程语言：</strong>
+<ul>
+<li><strong>C 和 C++：</strong> 理解底层代码和内存管理的关键。</li>
+<li><strong>Python：</strong> 用于编写脚本和自动化任务。</li>
+<li><strong>汇编语言（x86/x64）：</strong> 逆向工程二进制文件的必要技能。</li>
+</ul>
+</li>
+<li><strong>操作系统：</strong>
+<ul>
+<li><strong>Linux：</strong> 熟悉命令行操作和系统内部机制。</li>
+<li><strong>Windows（针对逆向工程）：</strong> 理解 Windows 内部机制，便于分析 Windows 平台的二进制文件。</li>
+</ul>
+</li>
+<li><strong>计算机组成原理：</strong>
+<ul>
+<li>了解 CPU 架构、内存层次结构和指令集。</li>
+</ul>
+</li>
+<li><strong>数据结构和算法：</strong>
+<ul>
+<li>掌握常用数据结构（数组、链表、栈、队列、树）。</li>
+<li>熟悉算法，用于问题解决。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="学习路线"><a aria-hidden="true" tabindex="-1" href="#学习路线"><span class="icon icon-link"></span></a><strong>学习路线</strong></h3>
+<h4 id="阶段一基础知识"><a aria-hidden="true" tabindex="-1" href="#阶段一基础知识"><span class="icon icon-link"></span></a><strong>阶段一：基础知识</strong></h4>
+<p><strong>1. 精通编程</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>深入学习 C 和 C++，理解指针、内存分配和管理。</li>
+<li>使用 Python 进行脚本编写，解决简单的问题。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《C 程序设计语言》（Kernighan 和 Ritchie 著）</li>
+<li>《C 和指针》（Kenneth A. Reek 著）</li>
+<li>《Python 编程：从入门到实践》（Eric Matthes 著）</li>
+<li>在线平台：LeetCode、牛客网用于算法练习。</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. 掌握 Linux</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>在虚拟机中安装 Linux 发行版（如 Ubuntu、Kali Linux）。</li>
+<li>学习基本和高级的 Shell 命令。</li>
+<li>理解文件权限、进程管理和网络基础。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《鸟哥的 Linux 私房菜》（鸟哥 著）</li>
+<li>《Linux 命令行与 Shell 脚本编程大全》（Richard Blum 著）</li>
+<li>在线教程：Linux Journey、OverTheWire Bandit 挑战。</li>
+</ul>
+</li>
+</ul>
+<h4 id="阶段二汇编语言和调试"><a aria-hidden="true" tabindex="-1" href="#阶段二汇编语言和调试"><span class="icon icon-link"></span></a><strong>阶段二：汇编语言和调试</strong></h4>
+<p><strong>1. 汇编语言</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>学习 x86 和 x64 汇编语言的语法和指令集。</li>
+<li>编写简单的汇编程序，理解指令执行流程。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《汇编语言》（王爽 著）</li>
+<li>《现代 X86 汇编语言程序设计》（Daniel Kusswurm 著）</li>
+<li>在线教程：Assemble语言入门（廖雪峰博客）</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. 调试工具</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>熟悉 GDB（GNU 调试器）的使用，调试二进制程序。</li>
+<li>学习设置断点、查看内存、逐步执行代码。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《GDB 调试手册》（Jim Blandy 著）</li>
+<li>在线教程：GDB 官方文档，YouTube 上的 LiveOverflow 系列。</li>
+</ul>
+</li>
+<li><strong>工具：</strong>
+<ul>
+<li><strong>GDB</strong>：GNU 调试器。</li>
+<li><strong>Peda</strong>：GDB 的扩展插件，增强了调试功能。</li>
+</ul>
+</li>
+</ul>
+<h4 id="阶段三逆向工程基础"><a aria-hidden="true" tabindex="-1" href="#阶段三逆向工程基础"><span class="icon icon-link"></span></a><strong>阶段三：逆向工程基础</strong></h4>
+<p><strong>1. 静态分析</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>学习阅读和理解反汇编代码。</li>
+<li>理解控制流图（CFG）和函数调用关系。</li>
+<li>分析二进制文件的结构和执行逻辑。</li>
+</ul>
+</li>
+<li><strong>工具：</strong>
+<ul>
+<li><strong>IDA Freeware</strong>：行业标准的静态分析工具。</li>
+<li><strong>Ghidra</strong>：开源的逆向工程工具，由 NSA 发布。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《逆向工程权威指南》（Eldad Eilam 著）</li>
+<li>在线教程：Ghidra 官方文档，Bilibili 上的相关教学视频。</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. 动态分析</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>在受控环境中运行二进制文件，观察其行为。</li>
+<li>使用调试器监控程序在执行时的状态。</li>
+</ul>
+</li>
+<li><strong>工具：</strong>
+<ul>
+<li><strong>GDB-PEDA</strong>：增强版的 GDB，提供了许多辅助功能。</li>
+<li><strong>Radare2</strong>：强大的开源逆向工程框架。</li>
+<li><strong>Binary Ninja（收费）</strong>：用户友好的逆向工程工具。</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. 文件格式</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>学习可执行文件格式，如 ELF（Linux）、PE（Windows）。</li>
+<li>理解文件的各个段（section）、头部信息和加载过程。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《ELF 文件格式解析》（网上资料）</li>
+<li>《加密与解密》（ 薛永峰 著）</li>
+</ul>
+</li>
+</ul>
+<h4 id="阶段四二进制漏洞利用pwn"><a aria-hidden="true" tabindex="-1" href="#阶段四二进制漏洞利用pwn"><span class="icon icon-link"></span></a><strong>阶段四：二进制漏洞利用（Pwn）</strong></h4>
+<p><strong>1. 内存漏洞</strong></p>
+<ul>
+<li><strong>主题：</strong>
+<ul>
+<li>栈溢出（Stack Overflow）</li>
+<li>堆溢出（Heap Overflow）</li>
+<li>格式化字符串漏洞（Format String）</li>
+<li>空指针引用、双重释放、整数溢出等。</li>
+</ul>
+</li>
+<li><strong>行动计划：</strong>
+<ul>
+<li>编写含有这些漏洞的示例程序。</li>
+<li>理解漏洞产生的原因和利用方式。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《漏洞战争：软件漏洞分析精要》（刘焱飞 著）</li>
+<li>《黑客攻防技术宝典：系统实战篇》（Kyle Rankin 著）</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. 漏洞利用技巧</strong></p>
+<ul>
+<li><strong>工具：</strong>
+<ul>
+<li><strong>Pwntools</strong>：用于编写漏洞利用脚本的 Python 库。</li>
+<li><strong>OneGadget</strong>：查找 libc 中可用的 one_gadget。</li>
+<li><strong>ROPgadget</strong>：用于查找 ROP（Return-Oriented Programming）链的工具。</li>
+</ul>
+</li>
+<li><strong>行动计划：</strong>
+<ul>
+<li>学习利用栈溢出执行任意代码。</li>
+<li>掌握 ROP 技术，构造 ROP 链。</li>
+<li>了解返回到 libc（ret2libc）的利用方法。</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. 绕过保护机制</strong></p>
+<ul>
+<li><strong>主题：</strong>
+<ul>
+<li>ASLR（地址空间布局随机化）</li>
+<li>NX（不可执行栈）</li>
+<li>Stack Canaries（栈金丝雀）</li>
+<li>PIE（位置无关可执行文件）</li>
+<li>RELRO（可重定位表只读）</li>
+</ul>
+</li>
+<li><strong>行动计划：</strong>
+<ul>
+<li>理解这些保护机制的工作原理。</li>
+<li>学习如何在存在保护机制的情况下进行漏洞利用。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《Pwn2Own：Linux 二进制安全剖析》（张福新 著）</li>
+<li>在线博客：l4w.io、xz.aliyun.com</li>
+</ul>
+</li>
+</ul>
+<p><strong>4. 实战练习</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>参与在线 Pwn 题目的练习，提高实战能力。</li>
+<li>分析 CTF 比赛中的经典 Pwn 题目，阅读他人写的 Writeup。</li>
+</ul>
+</li>
+<li><strong>平台：</strong>
+<ul>
+<li><strong>CTF Wiki</strong>：提供了大量的题目和解析。</li>
+<li><strong>Pwnable.kr</strong>：专注于 Pwn 练习的平台。</li>
+<li><strong>牛客网</strong>：提供 CTF 相关的练习题。</li>
+</ul>
+</li>
+</ul>
+<h4 id="阶段五高级逆向工程"><a aria-hidden="true" tabindex="-1" href="#阶段五高级逆向工程"><span class="icon icon-link"></span></a><strong>阶段五：高级逆向工程</strong></h4>
+<p><strong>1. 反混淆和反调试</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>学习常见的代码混淆和加壳技术。</li>
+<li>了解反调试方法，学习如何绕过反调试机制。</li>
+</ul>
+</li>
+<li><strong>工具：</strong>
+<ul>
+<li><strong>Unpackers</strong>：用于脱壳的工具，如 UPX、PEiD。</li>
+<li><strong>Scylla</strong>：Dump 进程内存的工具。</li>
+<li><strong>OllyDbg（Windows）</strong>：强大的调试器，适用于反混淆。</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. 恶意软件分析基础</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>在虚拟机中分析简单的恶意软件样本。</li>
+<li>了解恶意软件的常见行为，如持久化、进程注入、网络通信。</li>
+</ul>
+</li>
+<li><strong>推荐资源：</strong>
+<ul>
+<li>《实用恶意代码分析》（Michael Sikorski 和 Andrew Honig 著）</li>
+<li>在线课程：Malware Unicorn 的恶意软件分析教程。</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. 其他平台的逆向工程</strong></p>
+<ul>
+<li><strong>主题：</strong>
+<ul>
+<li>移动应用逆向工程（Android APK、iOS 应用）</li>
+<li>固件和物联网设备的逆向工程</li>
+<li>游戏逆向与外挂编写</li>
+</ul>
+</li>
+<li><strong>行动计划：</strong>
+<ul>
+<li>学习 ARM 架构的汇编语言。</li>
+<li>使用工具如 Jadx、APKTool 分析 Android 应用。</li>
+<li>研究固件的提取和分析方法。</li>
+</ul>
+</li>
+</ul>
+<h4 id="阶段六实践应用"><a aria-hidden="true" tabindex="-1" href="#阶段六实践应用"><span class="icon icon-link"></span></a><strong>阶段六：实践应用</strong></h4>
+<p><strong>1. 参加 CTF 比赛</strong></p>
+<ul>
+<li><strong>平台：</strong>
+<ul>
+<li><strong>CTFTime</strong>：获取最新的 CTF 比赛信息。</li>
+<li><strong>picoCTF</strong>：适合初学者的 CTF 挑战。</li>
+<li><strong>XCTF</strong>：国内的 CTF 比赛平台。</li>
+</ul>
+</li>
+<li><strong>行动计划：</strong>
+<ul>
+<li>组建或加入一个 CTF 战队，参与线上线下的比赛。</li>
+<li>赛后总结，撰写 Writeup，分享经验。</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. 构建个人作品集</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>记录解决的挑战和编写详细的解析文章。</li>
+<li>开发自己的工具或参与开源项目，为社区做贡献。</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. 加入社区</strong></p>
+<ul>
+<li><strong>行动计划：</strong>
+<ul>
+<li>参与网络安全相关的论坛和交流群，如先知社区、FreeBuf 社区。</li>
+<li>关注安全领域的专家，学习最新的技术和资讯。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="额外建议"><a aria-hidden="true" tabindex="-1" href="#额外建议"><span class="icon icon-link"></span></a><strong>额外建议</strong></h3>
+<p><strong>1. 持续学习</strong></p>
+<ul>
+<li><strong>保持更新：</strong>
+<ul>
+<li>关注安全研究人员的博客和微博。</li>
+<li>订阅安全资讯，如 Seebug Paper、360 安全播报。</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. 道德和法律意识</strong></p>
+<ul>
+<li><strong>合法合规：</strong>
+<ul>
+<li>仅在你拥有或得到明确授权的系统上进行测试和逆向工程。</li>
+<li>尊重他人的隐私和知识产权，不传播或利用非法信息。</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. 资源整合</strong></p>
+<ul>
+<li><strong>书籍推荐：</strong>
+<ul>
+<li>《灰帽黑客》（Allen Harper 等 著）</li>
+<li>《二进制程序分析》（Dennis Andriesse 著）</li>
+<li>《Shellcoder’s Handbook》（Chris Anley 等 著）</li>
+</ul>
+</li>
+<li><strong>在线课程：</strong>
+<ul>
+<li><strong>网易云课堂</strong>：相关的网络安全课程。</li>
+<li><strong>慕课网</strong>：提供大量的 IT 技术课程。</li>
+</ul>
+</li>
+<li><strong>博客和网站：</strong>
+<ul>
+<li><strong>先知社区（xz.aliyun.com）</strong></li>
+<li><strong>乌云镜像（wooyun.org）</strong></li>
+<li><strong>看雪论坛（kanxue.com）</strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="学习技巧"><a aria-hidden="true" tabindex="-1" href="#学习技巧"><span class="icon icon-link"></span></a><strong>学习技巧</strong></h3>
+<ul>
+<li><strong>实践为王：</strong> 理论重要，但实践经验更关键。定期通过挑战和项目应用所学知识。</li>
+<li><strong>循序渐进：</strong> 从简单的挑战开始，随着技能的提升，逐步尝试更复杂的问题。</li>
+<li><strong>教学相长：</strong> 向他人解释概念或撰写博客，可以加强你的理解。</li>
+<li><strong>积极思考：</strong> 培养解决问题的态度。面对困难的 CTF 题目，坚持不懈和创造性是克服挑战的关键。</li>
+</ul>
+<hr>
+<h3 id="总结"><a aria-hidden="true" tabindex="-1" href="#总结"><span class="icon icon-link"></span></a><strong>总结</strong></h3>
+<p>踏上掌握 CTF 逆向工程和 Pwn 挑战的旅程既充满挑战，又令人兴奋。通过遵循这条系统的学习路线，积极参与网络安全社区，你将发展出在比赛中脱颖而出的技能，并为网络安全领域做出贡献。</p>
+<p>记住，目标不仅是赢得比赛，更是深入理解软件安全的基本原理、漏洞发现和利用技术。这些知识对于构建安全的系统和防御恶意攻击具有无价的价值。</p>
+<hr>
+<p>希望这份详尽的学习路线和建议能帮助你在 CTF 逆向工程和 Pwn 的道路上取得进步。如有任何疑问，欢迎随时提问。祝你学习顺利，比赛中取得优异的成绩！</p>
+<p>目前我只想到了这么多，大部分和安全不是很相关的内容已经被我去掉了，等之后想起啥再补充。</p></div>  </div> <script type="module">const n=new MutationObserver(i);n.observe(document.body,{childList:!0,subtree:!0});document.addEventListener("DOMContentLoaded",i);function i(){n.disconnect();let r=Array.from(document.querySelectorAll("pre"));for(let e of r){if(e.parentElement?.nodeName==="DIV"&&e.parentElement?.classList.contains("code-block"))continue;let o=document.createElement("div");o.className="relative code-block";let t=document.createElement("button");t.className="copy-btn btn-regular-dark absolute active:scale-90 h-8 w-8 top-2 right-2 opacity-75 text-sm p-1.5 rounded-lg transition-all ease-in-out",e.setAttribute("tabindex","0"),e.parentNode&&e.parentNode.insertBefore(o,e);let a='<svg class="copy-btn-icon copy-icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"><path d="M368.37-237.37q-34.48 0-58.74-24.26-24.26-24.26-24.26-58.74v-474.26q0-34.48 24.26-58.74 24.26-24.26 58.74-24.26h378.26q34.48 0 58.74 24.26 24.26 24.26 24.26 58.74v474.26q0 34.48-24.26 58.74-24.26 24.26-58.74 24.26H368.37Zm0-83h378.26v-474.26H368.37v474.26Zm-155 238q-34.48 0-58.74-24.26-24.26-24.26-24.26-58.74v-515.76q0-17.45 11.96-29.48 11.97-12.02 29.33-12.02t29.54 12.02q12.17 12.03 12.17 29.48v515.76h419.76q17.45 0 29.48 11.96 12.02 11.97 12.02 29.33t-12.02 29.54q-12.03 12.17-29.48 12.17H213.37Zm155-238v-474.26 474.26Z"/></svg>',d='<svg class="copy-btn-icon success-icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"><path d="m389-377.13 294.7-294.7q12.58-12.67 29.52-12.67 16.93 0 29.61 12.67 12.67 12.68 12.67 29.53 0 16.86-12.28 29.14L419.07-288.41q-12.59 12.67-29.52 12.67-16.94 0-29.62-12.67L217.41-430.93q-12.67-12.68-12.79-29.45-.12-16.77 12.55-29.45 12.68-12.67 29.62-12.67 16.93 0 29.28 12.67L389-377.13Z"/></svg>';t.innerHTML=`<div>${a} ${d}</div>
+      `,o.appendChild(e),o.appendChild(t);let c;t.addEventListener("click",async()=>{c&&clearTimeout(c);let s=e?.querySelector("code")?.innerText;s!==void 0&&(await navigator.clipboard.writeText(s),t.classList.add("success"),c=setTimeout(()=>{t.classList.remove("success")},1e3))})}n.observe(document.body,{childList:!0,subtree:!0})}</script> <style>
+  .btn-regular-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: oklch(0.45 0.01 var(--hue));
+  }
+
+  .btn-regular-dark:hover {
+    background-color: oklch(0.5 0.01 var(--hue));
+  }
+
+  .btn-regular-dark:active {
+    background-color: oklch(0.55 0.01 var(--hue));
+  }
+
+  .btn-regular-dark.dark {
+    background-color: oklch(0.3 0.02 var(--hue));
+  }
+
+  .btn-regular-dark.dark:hover {
+    background-color: oklch(0.35 0.03 var(--hue));
+  }
+
+  .btn-regular-dark.dark:active {
+    background-color: oklch(0.4 0.03 var(--hue));
+  }
+
+  .btn-regular-dark.success {
+    background-color: oklch(0.75 0.14 var(--hue));
+  }
+
+  .btn-regular-dark.success.dark {
+    background-color: oklch(0.75 0.14 var(--hue));
+  }
+
+  .copy-btn-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.3s;
+    transform: translate(-50%, -50%);
+  }
+
+  .copy-btn .copy-icon {
+    opacity: 1;
+    fill: white;
+  }
+
+  .copy-btn .copy-icon.dark {
+    fill: rgba(255, 255, 255, 0.75);
+  }
+
+  .copy-btn.success .copy-icon {
+    opacity: 0;
+  }
+
+  .copy-btn .success-icon {
+    fill: white;
+    opacity: 0;
+  }
+
+  .copy-btn.success .success-icon {
+    opacity: 1;
+  }
+</style> <div class="fonts relative mt-4 h-32 w-full rounded-lg bg-gray-100 px-4 py-4 lg:h-36 dark:bg-[var(--background-color)]" data-astro-cid-er4ir5rx> <div class="absolute left-4 top-4 z-10 flex h-24 flex-col justify-between lg:h-28" data-astro-cid-er4ir5rx> <div class="flex flex-col items-start space-y-1" data-astro-cid-er4ir5rx> <p class="!my-0 pl-1 font-bold text-[var(--text-color)]" data-astro-cid-er4ir5rx>二进制学习建议</p> <a class="rounded-md px-1 py-0.5 text-sm transition-all hover:bg-[var(--primary-color-lighten)]" id="post-url" href data-astro-cid-er4ir5rx></a> </div> <div class="ml-1 flex flex-row space-x-4 lg:space-x-8" data-astro-cid-er4ir5rx> <div class="flex flex-col" data-astro-cid-er4ir5rx> <span class="select-none text-sm text-[var(--text-color-lighten)]" data-astro-cid-er4ir5rx>作者</span> <p class="!my-0 line-clamp-1 text-sm text-[var(--text-color)] lg:text-base" data-astro-cid-er4ir5rx> 云书景 Yskye </p> </div> <div class="flex flex-col" data-astro-cid-er4ir5rx> <span class="select-none text-sm text-[var(--text-color-lighten)]" data-astro-cid-er4ir5rx>发布日期</span> <p class="!my-0 line-clamp-1 text-sm text-[var(--text-color)] lg:text-base" data-astro-cid-er4ir5rx> 2024 - 09 - 18 </p> </div> <div class="flex flex-col" data-astro-cid-er4ir5rx> <span class="select-none text-sm text-[var(--text-color-lighten)]" data-astro-cid-er4ir5rx>许可证</span> <!-- with special license -->   <!-- without special license --> <a class="line-clamp-1 text-sm text-[var(--text-color)] lg:text-base" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" data-astro-cid-er4ir5rx> CC BY-NC-SA 4.0 </a> </div> </div> </div> <div class="relative right-0 top-1/2 z-0 flex h-32 -translate-y-1/2 overflow-hidden lg:h-36" data-astro-cid-er4ir5rx> <svg width="230" height="230" class="absolute right-0 top-1/2 -translate-y-1/2 text-gray-300 dark:text-[var(--card-color)]" data-astro-cid-er4ir5rx="true" data-icon="ooui:logo-cc">   <symbol id="ai:ooui:logo-cc" viewBox="0 0 20 20"><path fill="currentColor" d="M10 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8m0-18A9.94 9.94 0 0 0 0 10a9.94 9.94 0 0 0 10 10a9.94 9.94 0 0 0 10-10A9.94 9.94 0 0 0 10 0"/><path fill="currentColor" d="M13.49 11.67c-1 0-1.43-.57-1.43-1.71s.43-1.71 1.43-1.71c.57 0 .86.29 1.14.86l1.29-.71A2.8 2.8 0 0 0 13.2 7a2.9 2.9 0 0 0-2.14.86A2.7 2.7 0 0 0 10.2 10a3 3 0 0 0 .86 2.29a2.9 2.9 0 0 0 2.14.86a3.24 3.24 0 0 0 2.71-1.57L14.63 11a1.46 1.46 0 0 1-1.14.71zm-6 0c-1 0-1.43-.57-1.43-1.71s.43-1.71 1.43-1.71c.57 0 .86.29 1.14.86l1.29-.71A2.8 2.8 0 0 0 7.2 7a2.9 2.9 0 0 0-2.14.86A2.7 2.7 0 0 0 4.2 10a3 3 0 0 0 .86 2.29a2.9 2.9 0 0 0 2.14.86a3.24 3.24 0 0 0 2.71-1.57L8.63 11a1.46 1.46 0 0 1-1.14.71z"/></symbol><use href="#ai:ooui:logo-cc"></use>  </svg> </div> </div>  </div> </div>  </main> <div class="mx-3 space-y-4" data-astro-cid-sz7xmlte> <!-- Owner info card --> <div class="rounded-3xl bg-[var(--card-color)] transition-all lg:hidden" data-astro-cid-sz7xmlte> <div class="flex flex-row md:flex-col md:pt-4" data-astro-cid-sz7xmlte> <a href="/about" class="relative h-40 w-40 md:hidden" data-astro-cid-sz7xmlte> <img class="lozad absolute left-0 top-0 h-40 rounded-l-3xl" data-src="/avatar.png" alt="Avatar" data-astro-cid-sz7xmlte> <div class="absolute right-0 top-0 h-40 w-20 bg-gradient-to-l from-[var(--card-color)]" data-astro-cid-sz7xmlte></div> </a> <a class="mx-auto hidden h-40 w-40 cursor-pointer rounded-3xl transition-all hover:brightness-75 md:block" data-astro-cid-sz7xmlte> <img class="lozad h-40 rounded-3xl" data-src="/avatar.png" alt="Avatar" data-astro-cid-sz7xmlte> </a> <div class="flex grow flex-col justify-center space-y-4 p-4" data-astro-cid-sz7xmlte> <div class="flex flex-col items-center" data-astro-cid-sz7xmlte> <a href="/about" class="line-clamp-1 text-xl font-semibold text-[var(--text-color)]" data-astro-cid-sz7xmlte> 云书景 Yskye </a> <span class="mb-2 mt-1 h-1 w-8 rounded-full bg-[var(--primary-color)]" data-astro-cid-sz7xmlte></span> <p class="line-clamp-1 text-[var(--text-color-lighten)]" data-astro-cid-sz7xmlte> 少年负壮气，奋烈自有时。 </p> </div> <ul class="flex flex-row items-center justify-center space-x-6" data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte> <a href="https://github.com/yunshujing" class="text-[var(--primary-color)]" data-astro-cid-sz7xmlte> <svg width="24" height="24" viewBox="0 0 24 24" data-astro-cid-sz7xmlte="true" data-icon="line-md:github-loop">   <use href="#ai:line-md:github-loop"></use>  </svg> </a> </li><li data-astro-cid-sz7xmlte> <a href="https://space.bilibili.com/214528017" class="text-[var(--primary-color)]" data-astro-cid-sz7xmlte> <svg width="24" height="24" viewBox="0 0 24 24" data-astro-cid-sz7xmlte="true" data-icon="mingcute:bilibili-line">   <use href="#ai:mingcute:bilibili-line"></use>  </svg> </a> </li> </ul> </div> </div> </div> <!-- Category card --> <div class="rounded-3xl bg-[var(--card-color)] p-4 transition-all lg:hidden" data-astro-cid-sz7xmlte> <div class="mb-2 flex flex-row items-center space-x-2 pl-1.5" data-astro-cid-sz7xmlte> <span class="h-6 w-1 rounded-full bg-[var(--primary-color)]" data-astro-cid-sz7xmlte></span> <span class="text-xl font-semibold text-[var(--text-color)]" data-astro-cid-sz7xmlte> 分类 </span> </div> <div class="relative grid grid-cols-2 gap-1 md:grid-cols-3" data-astro-cid-sz7xmlte> <a href="/categories/fa1cffa1" class="category flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-sz7xmlte> <p class="line-clamp-1 text-[var(--text-color)] transition-all" data-astro-cid-sz7xmlte> ACM </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 6 </span> </a><a href="/categories/af967908" class="category flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-sz7xmlte> <p class="line-clamp-1 text-[var(--text-color)] transition-all" data-astro-cid-sz7xmlte> CTF </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 8 </span> </a><a href="/categories/60db1afb" class="category flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-sz7xmlte> <p class="line-clamp-1 text-[var(--text-color)] transition-all" data-astro-cid-sz7xmlte> 课程 </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 1 </span> </a>  </div> </div> <!-- Tag card --> <div class="rounded-3xl bg-[var(--card-color)] p-4 transition-all lg:hidden" data-astro-cid-sz7xmlte> <div class="mb-2 flex flex-row items-center space-x-2 pl-1.5" data-astro-cid-sz7xmlte> <span class="h-6 w-1 rounded-full bg-[var(--primary-color)]" data-astro-cid-sz7xmlte></span> <span class="text-xl font-semibold text-[var(--text-color)]" data-astro-cid-sz7xmlte> 标签 </span> </div> <div class="relative flex flex-row flex-wrap" data-astro-cid-sz7xmlte> <a href="/tags/2118cbc1" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 学习 </p> </a><a href="/tags/e6f04ffb" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 代码 </p> </a><a href="/tags/fa1cffa1" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> ACM </p> </a><a href="/tags/af967908" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> CTF </p> </a><a href="/tags/2e8ec0f0" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 逆向 </p> </a><a href="/tags/6a2a781c" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> PWN </p> </a>  </div> </div> <!-- Site footer --> <footer data-astro-cid-sz7xmlte> <div class="divide-y divide-dashed divide-black/25 py-4 lg:pt-0 dark:divide-white/25" data-astro-cid-sz7xmlte> <div data-astro-cid-sz7xmlte></div> <div data-astro-cid-sz7xmlte></div> </div> <div class="flex w-full flex-col items-center text-sm text-[var(--text-color-lighten)]" data-astro-cid-sz7xmlte> <p data-astro-cid-sz7xmlte>
+© 2026 云书景 Yskye All Rights Reserved.
+</p> <p data-astro-cid-sz7xmlte>
+Powered By <a class="link" href="https://github.com/WhitePaper233/yukina" data-astro-cid-sz7xmlte>Yukina</a> & <a class="link" href="https://astro.build/" data-astro-cid-sz7xmlte>Astro</a> </p> <p data-astro-cid-sz7xmlte> <a class="link" href="https://yunshujing.github.io/sitemap-index.xml" data-astro-cid-sz7xmlte>SiteMap</a> / <a class="link" href="/rss.xml" data-astro-cid-sz7xmlte>RSS</a> </p> </div> </footer> </div>  </div> </div> </div>  </body></html>  <!-- <Fragment set:html={tocHTMLString} /> -->

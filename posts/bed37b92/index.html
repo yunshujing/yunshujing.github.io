@@ -1,0 +1,572 @@
+<!DOCTYPE html><html lang="zh-CN" data-astro-cid-37fxchfa> <!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v5.3.0"><!-- Canonical URL --><link rel="canonical" href="https://yunshujing.github.io/posts/bed37b92/"><!-- Primary Meta Tags --><title>YSKYE&#39;S BLOG</title><meta name="title" content="YSKYE'S BLOG"><meta name="description" content="云书景的个人知识库与技术博客"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://yunshujing.github.io/posts/bed37b92/"><meta property="og:title" content="YSKYE'S BLOG"><meta property="og:description" content="云书景的个人知识库与技术博客"><!-- <meta property="og:image" content={new URL(image, Astro.url)} /> --><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://yunshujing.github.io/posts/bed37b92/"><meta property="twitter:title" content="YSKYE'S BLOG"><meta property="twitter:description" content="云书景的个人知识库与技术博客"><!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> --><!-- RSS AutoDiscovery --><link rel="alternate" type="application/rss+xml" title="YSKYE'S BLOG" href="https://yunshujing.github.io/rss.xml"><!-- SiteMap --><link rel="sitemap" href="/sitemap-index.xml"><!-- CSS --><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex/dist/katex.min.css"><!-- Fonts --><link rel="preconnect" href="https://fonts.bunny.net"><link href="https://fonts.bunny.net/css?family=noto-sans-sc:100,200,300,400,500,600,700,800,900|raleway:500,700" rel="stylesheet"><script type="module" src="/_astro/ScriptSetup.astro_astro_type_script_index_0_lang.D_IBASpI.js"></script><link rel="stylesheet" href="/_astro/_page_.Q0u9iSxt.css">
+<style>.article code:not(pre code):before{content:none!important}.article code:not(pre code):after{content:none!important}.article code:not(pre code){font-size:.875rem;line-height:1.25rem;font-family:var(--code-font)!important;border-radius:4px;color:var(--primary-color)!important;background-color:var(--primary-color-lighten)!important}.article h1,.article h2,.article h3,.article h4,.article h5,.article h6{display:flex;flex-direction:row;align-items:center;position:relative}.article h1:before,.article h2:before,.article h3:before,.article h4:before,.article h5:before,.article h6:before{position:absolute;display:block;content:" ";background-color:var(--primary-color);top:2.5px;bottom:3px;width:.3rem;border-radius:4px}.article h1>a,.article h2>a,.article h3>a,.article h4>a,.article h5>a,.article h6>a{margin:.5rem}.article li::marker{color:var(--primary-color)!important}.article blockquote{border-inline-start-color:var(--primary-color)!important;padding:.125rem .75rem}@media (min-width: 1024px){.article blockquote{padding-left:1rem}}.article blockquote{font-style:normal!important;border-radius:.25rem;background-color:var(--primary-color-transparent)!important}.article blockquote blockquote{margin-top:.25rem;margin-bottom:.25rem}.article blockquote p{padding:0;margin:0;color:var(--text-color)}.article blockquote p:first-child{padding-top:.3rem}.article blockquote p:last-child{padding-bottom:.3rem}.article blockquote p:before{content:""!important}.article blockquote p:after{content:""!important}.article a{color:var(--primary-color)!important}.article hr{margin-top:1.5rem;margin-bottom:1.5rem;border-color:var(--primary-color-lighten)!important}.article pre{margin-top:.75rem;margin-bottom:.75rem;overflow:hidden!important}.article span.line{font-size:14px!important;line-height:normal;font-family:var(--code-font)!important}.article code{counter-reset:line}.article span.line:before{content:counter(line);counter-increment:line;direction:rtl;display:inline-block;margin-right:1rem;width:1rem;color:#ffffff40}.article span.line:last-child:empty,.article span.line:last-child:has(>.article span:empty:only-child){display:none}.article p{margin-top:.75rem;margin-bottom:.75rem}.article .astro-code{border-radius:.75rem!important;scrollbar-width:thin}.fonts[data-astro-cid-er4ir5rx]{font-family:var(--primary-font)}
+.article-wrapper[data-astro-cid-gjtny2mx]{margin-left:.75rem;margin-right:.75rem;border-radius:1rem;background-color:var(--card-color);padding:1.5rem 1.25rem}@media (min-width: 1024px){.article-wrapper[data-astro-cid-gjtny2mx]{margin-left:0;margin-right:0;padding:2.25rem 2.5rem}}.article[data-astro-cid-gjtny2mx]{display:flex;flex-direction:column;font-size:var(--primary-font)}
+</style>
+<link rel="stylesheet" href="/_astro/index.BLZcjYtd.css"><script type="module" src="/_astro/page.BPUpBCYk.js"></script><body class="overflow-y-hidden" data-astro-cid-37fxchfa>  <nav class="nav" id="nav" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="relative flex h-[4rem] w-full items-center justify-between overflow-visible lg:h-[4.5rem]" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="brand after:content-['']" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <button id="menu-switcher" type="button" class="h-[40px] w-[44px] content-center" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <svg width="24" height="24" id="menu-icon-closed" class="mx-auto hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:close-to-menu-transition">   <symbol id="ai:line-md:close-to-menu-transition" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5L12 12L19 5M12 12H12M5 19L12 12L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L12 12L19 5M12 12H12M5 19L12 12L19 19;M5 5L12 5L19 5M5 12H19M5 19L12 19L19 19"/></path></symbol><use href="#ai:line-md:close-to-menu-transition"></use>  </svg> <svg width="24" height="24" id="menu-icon-opened" class="mx-auto hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:menu-to-close-transition">   <symbol id="ai:line-md:menu-to-close-transition" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5L12 5L19 5M5 12H19M5 19L12 19L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L12 5L19 5M5 12H19M5 19L12 19L19 19;M5 5L12 12L19 5M12 12H12M5 19L12 12L19 19"/></path></symbol><use href="#ai:line-md:menu-to-close-transition"></use>  </svg> </button> <a class="title" href="/" data-astro-cid-ymhdp2rl style="--navCount: 4;"> YSKYE&#39;S BLOG </a> </div> <a class="brand-lg" href="/" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="title space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <svg width="32" height="32" data-astro-cid-ymhdp2rl="true" data-icon="heroicons:home">   <symbol id="ai:heroicons:home" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 12l8.955-8.955a1.124 1.124 0 0 1 1.59 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></symbol><use href="#ai:heroicons:home"></use>  </svg> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">YSKYE&#39;S BLOG</p> </div> </a> <div class="menu" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">首页</p> </a><a href="/archive" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">归档</p> </a><a href="/about" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">关于</p> </a><a href="https://github.com/yunshujing" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <p data-astro-cid-ymhdp2rl style="--navCount: 4;">GitHub</p> </a> </div> <div class="toolbar" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="lg:hidden" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="ZBlnUB" component-url="/_astro/MobileSearchBar.B5q-wLDh.js" component-export="default" renderer-url="/_astro/client.svelte.SqaDOZuU.js" props="{&quot;data-astro-cid-ymhdp2rl&quot;:[0,true]}" ssr client="only" opts="{&quot;name&quot;:&quot;MobileSearchBar&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island> </div> <div class="hidden lg:block" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <astro-island uid="Z2tLYYe" component-url="/_astro/SearchBar.tecJyGXn.js" component-export="default" renderer-url="/_astro/client.svelte.SqaDOZuU.js" props="{&quot;data-astro-cid-ymhdp2rl&quot;:[0,true]}" ssr client="only" opts="{&quot;name&quot;:&quot;SearchBar&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island> </div> <div class="theme" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <button type="button" id="theme-switcher" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <svg width="24" height="24" id="theme-icon-light" class="hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:moon-alt-to-sunny-outline-loop-transition">   <symbol id="ai:line-md:moon-alt-to-sunny-outline-loop-transition" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="2" stroke-dashoffset="2" d="M12 19v1M19 12h1M12 5v-1M5 12h-1"><animate fill="freeze" attributeName="d" begin="0.6s" dur="0.2s" values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" values="2;0"/></path><path stroke-dasharray="2" stroke-dashoffset="2" d="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5"><animate fill="freeze" attributeName="d" begin="0.8s" dur="0.2s" values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" values="2;0"/></path><animateTransform attributeName="transform" dur="30s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></g><mask id="lineMdMoonAltToSunnyOutlineLoopTransition0"><circle cx="12" cy="12" r="12" fill="#fff"/><circle cx="12" cy="12" r="8"><animate fill="freeze" attributeName="r" dur="0.4s" values="8;4"/></circle><circle cx="18" cy="6" r="12" fill="#fff"><animate fill="freeze" attributeName="cx" dur="0.4s" values="18;22"/><animate fill="freeze" attributeName="cy" dur="0.4s" values="6;2"/><animate fill="freeze" attributeName="r" dur="0.4s" values="12;3"/></circle><circle cx="18" cy="6" r="10"><animate fill="freeze" attributeName="cx" dur="0.4s" values="18;22"/><animate fill="freeze" attributeName="cy" dur="0.4s" values="6;2"/><animate fill="freeze" attributeName="r" dur="0.4s" values="10;1"/></circle></mask><circle cx="12" cy="12" r="10" mask="url(#lineMdMoonAltToSunnyOutlineLoopTransition0)" fill="currentColor"><animate fill="freeze" attributeName="r" dur="0.4s" values="10;6"/></circle></symbol><use href="#ai:line-md:moon-alt-to-sunny-outline-loop-transition"></use>  </svg> <svg width="24" height="24" id="theme-icon-dark" class="hidden" data-astro-cid-ymhdp2rl="true" data-icon="line-md:sunny-outline-to-moon-alt-loop-transition">   <symbol id="ai:line-md:sunny-outline-to-moon-alt-loop-transition" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-dasharray="4" stroke-dashoffset="4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5"><animate id="lineMdSunnyOutlineToMoonAltLoopTransition0" fill="freeze" attributeName="stroke-dashoffset" begin="0.6s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+6s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+2s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+4s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+1.2s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+3.2s;lineMdSunnyOutlineToMoonAltLoopTransition0.begin+5.2s" dur="0.4s" values="0;4"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+1.8s" to="M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+3.8s" to="M12 4h1.5M12 4h-1.5M12 4v1.5M12 4v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition0.begin+5.8s" to="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5"/></path><path d="M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5"><animate id="lineMdSunnyOutlineToMoonAltLoopTransition1" fill="freeze" attributeName="stroke-dashoffset" begin="1s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+6s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+2s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+4s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+1.2s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+3.2s;lineMdSunnyOutlineToMoonAltLoopTransition1.begin+5.2s" dur="0.4s" values="0;4"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+1.8s" to="M17 11h1.5M17 11h-1.5M17 11v1.5M17 11v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+3.8s" to="M18 12h1.5M18 12h-1.5M18 12v1.5M18 12v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition1.begin+5.8s" to="M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5"/></path><path d="M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5"><animate id="lineMdSunnyOutlineToMoonAltLoopTransition2" fill="freeze" attributeName="stroke-dashoffset" begin="2.8s;lineMdSunnyOutlineToMoonAltLoopTransition2.begin+6s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+2s" dur="0.4s" values="4;0"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+1.2s;lineMdSunnyOutlineToMoonAltLoopTransition2.begin+3.2s" dur="0.4s" values="0;4"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+1.8s" to="M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5"/><set fill="freeze" attributeName="d" begin="lineMdSunnyOutlineToMoonAltLoopTransition2.begin+5.8s" to="M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5"/></path></g><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><g><path stroke-dasharray="2" stroke-dashoffset="4" d="M12 21v1M21 12h1M12 3v-1M3 12h-1"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="4;2"/></path><path stroke-dasharray="2" stroke-dashoffset="4" d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" values="4;2"/></path><set fill="freeze" attributeName="opacity" begin="0.5s" to="0"/></g><path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" opacity="0"><set fill="freeze" attributeName="opacity" begin="0.5s" to="1"/></path></g><mask id="lineMdSunnyOutlineToMoonAltLoopTransition3"><circle cx="12" cy="12" r="12" fill="#fff"/><circle cx="12" cy="12" r="4"><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="4;8"/></circle><circle cx="22" cy="2" r="3" fill="#fff"><animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18"/><animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6"/><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="3;12"/></circle><circle cx="22" cy="2" r="1"><animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18"/><animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6"/><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="1;10"/></circle></mask><circle cx="12" cy="12" r="6" mask="url(#lineMdSunnyOutlineToMoonAltLoopTransition3)" fill="currentColor"><animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="6;10"/><set fill="freeze" attributeName="opacity" begin="0.5s" to="0"/></circle></symbol><use href="#ai:line-md:sunny-outline-to-moon-alt-loop-transition"></use>  </svg> </button> </div> </div> </div> <div id="mobile-menu" class="px-3 transition-all" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <ul id="mobile-menu-nav" class="mobile-menu-nav mobile-menu-nav-closed flex flex-col space-y-6 overflow-hidden text-xl font-medium text-[var(--text-color)] transition-all duration-300" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">首页</span> </div> <svg width="1em" height="1em" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <symbol id="ai:cuida:caret-right-outline" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.793 19.707a1 1 0 0 1 0-1.414L14.086 12L7.793 5.707a1 1 0 0 1 1.414-1.414l6.293 6.293a2 2 0 0 1 0 2.828l-6.293 6.293a1 1 0 0 1-1.414 0" clip-rule="evenodd"/></symbol><use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li><li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/archive" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">归档</span> </div> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li><li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="/about" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">关于</span> </div> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li><li class="mt-1" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <a href="https://github.com/yunshujing" class="mobile-nav-item" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <div class="flex flex-row items-center space-x-2" data-astro-cid-ymhdp2rl style="--navCount: 4;"> <span class="text-[var(--primary-color)]" data-astro-cid-ymhdp2rl style="--navCount: 4;">·</span> <span data-astro-cid-ymhdp2rl style="--navCount: 4;">GitHub</span> </div> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--text-color-lighten)]" data-astro-cid-ymhdp2rl="true" data-icon="cuida:caret-right-outline">   <use href="#ai:cuida:caret-right-outline"></use>  </svg> </a> </li> </ul> </div> </nav>  <script type="module">const l=e=>{const a=e.cloneNode(!0);return e.parentNode?.replaceChild(a,e),a},y=document.getElementById("menu-switcher"),s=document.getElementById("mobile-menu-nav"),r=document.getElementsByClassName("mobile-nav-item");let n=document.getElementById("menu-icon-closed"),o=document.getElementById("menu-icon-opened"),t=!1;const i=()=>{n.style.display=t?"block":"none",o.style.display=t?"none":"block",t?n=l(n):o=l(o),t?s.classList.replace("mobile-menu-nav-opened","mobile-menu-nav-closed"):s.classList.replace("mobile-menu-nav-closed","mobile-menu-nav-opened"),t=!t};y.addEventListener("click",i);for(let e=0;e<r.length;++e)r.item(e)?.addEventListener("click",i);document.addEventListener("click",e=>{!y.contains(e.target)&&!s.contains(e.target)&&t&&i()});const E=document.getElementById("theme-switcher");let c=document.getElementById("theme-icon-light"),d=document.getElementById("theme-icon-dark"),m=localStorage.getItem("theme")||"light";const h=e=>{document.documentElement.setAttribute("data-theme",e),localStorage.setItem("theme",e),m=e,d.style.display=e==="dark"?"block":"none",c.style.display=e==="light"?"block":"none",e==="dark"?d=l(d):c=l(c),document.documentElement.classList.toggle("dark",e==="dark")};E.addEventListener("click",()=>{h(m==="light"?"dark":"light")});document.addEventListener("DOMContentLoaded",()=>{h(m),n.style.display="block"});const u=document.getElementById("nav"),b=document.getElementById("banner"),p=b.offsetHeight-50;let g=0;window.addEventListener("scroll",()=>{p<window.scrollY&&window.scrollY>g?u.style.top="-72px":u.style.top="0",g=window.scrollY});</script> <script>
+  // load pagefind
+  async function loadPagefind() {
+    const pagefind = await import("/pagefind/pagefind.js");
+    await pagefind.options({
+      excerptLength: 20,
+    });
+    pagefind.init();
+    window.pagefind = pagefind;
+    pagefind.search("");
+  }
+  loadPagefind();
+</script> <div id="banner" class="banner onload-animation-fade-in" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <div class="transition-main banner-inner h-full w-full" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;">  <div class="cover" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <img class="item lozad" data-src="/covers/posts/CTF-reverse逆向分析解题常用脚本汇总.png" alt="PostCoverr" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> </div> <div class="relative h-[95%] w-full" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <div class="absolute left-1/2 top-1/2 w-4/5 -translate-x-1/2 -translate-y-1/2 lg:w-3/4" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <div class="flex flex-col" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <h1 class="title title-normal" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> CTF-reverse逆向分析解题常用脚本汇总 </h1> <h2 class="subtitle" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"></h2> </div> </div> </div> </div> <div class="waves" id="header-waves" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <defs data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"></path> </defs> <g class="parallax" data-astro-cid-kggsjsm4 style="--carouselAnimationTime: 6s;"> <use xlink:href="#gentle-wave" x="48" y="0" class="opacity-25" style="animation-delay:-2s;animation-duration:7s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> <use xlink:href="#gentle-wave" x="48" y="3" class="opacity-50" style="animation-delay:-3s;animation-duration:10s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> <use xlink:href="#gentle-wave" x="48" y="5" class="opacity-75" style="animation-delay:-4s;animation-duration:13s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> <use xlink:href="#gentle-wave" x="48" y="7" style="animation-delay:-5s;animation-duration:20s;--carouselAnimationTime: 6s;" data-astro-cid-kggsjsm4></use> </g> </svg> </div> </div>  <script type="module">const a=["不积跬步，无以至千里。","宝剑锋从磨砺出，梅花香自苦寒来。","种一棵树最好的时间是十年前，其次是现在。","路虽远，行则将至；事虽难，做则必成。","知不足而奋进，望远山而前行。","每一个不曾起舞的日子，都是对生命的辜负。","Talk is cheap. Show me the code.","Stay hungry, stay foolish.","There are only two hard things: cache invalidation and naming.","先能跑，再跑得快。","Hello, world! 是每段旅途的起点。","代码会撒谎，注释会遗忘，只有测试诚实。","静水流深，沧笙踏歌。","山不让尘，川不辞盈。","纸上得来终觉浅，绝知此事要躬行。","会当凌绝顶，一览众山小。","长风破浪会有时，直挂云帆济沧海。","仰天大笑出门去，我辈岂是蓬蒿人。"],h=document.querySelector(".banner .subtitle");if(h){let n=!1;const l=t=>{n||(n=!0,h.textContent=t)},o=()=>{l(a[Math.floor(Math.random()*a.length)])};try{const t=new AbortController;setTimeout(()=>{t.abort(),o()},4e3),fetch("https://v1.hitokoto.cn/?encode=json",{signal:t.signal}).then(e=>e.json()).then(e=>{e&&e.hitokoto?l(e.hitokoto):o()}).catch(()=>o())}catch{o()}}</script><div class="main-container my-10" data-astro-cid-ouamjn2i> <div class="flex flex-row items-start xl:space-x-4" data-astro-cid-ouamjn2i> <div class="side-bar" data-astro-cid-ouamjn2i> <div class="flex w-full flex-row justify-center" data-astro-cid-f5u63ayj> <div class="flex flex-col space-y-3" data-astro-cid-f5u63ayj> <div class="onload-animation rounded-3xl bg-[var(--card-color)] p-3" style="animation-delay: var(--onload-animation-delay);" data-astro-cid-f5u63ayj> <a href="/about" class="avatar-wrapper" data-astro-cid-f5u63ayj> <img src="/avatar.png" alt="avatar" class="avatar lozad select-none" data-astro-cid-f5u63ayj> </a> <div class="username mt-4" data-astro-cid-f5u63ayj> <p data-astro-cid-f5u63ayj>云书景 Yskye</p> </div> <p class="slogan mt-2 text-center text-[var(--text-color-lighten)]" data-astro-cid-f5u63ayj> 少年负壮气，奋烈自有时。 </p> <div class="mt-1 flex flex-row justify-center" data-astro-cid-f5u63ayj> <div class="flex w-[184px] flex-wrap justify-center gap-2" data-astro-cid-f5u63ayj> <a href="https://github.com/yunshujing" target="_blank"> <div class="flex h-10 w-10 flex-col justify-center rounded-lg transition-all hover:brightness-75 dark:hover:brightness-125"> <div class="flex flex-row justify-center"> <svg width="24" height="24" class="text-[var(--primary-color)]" data-icon="line-md:github-loop">   <symbol id="ai:line-md:github-loop" viewBox="0 0 24 24"><mask id="lineMdGithubLoop0" width="24" height="24" x="0" y="0"><g fill="#fff"><ellipse cx="9.5" cy="9" rx="1.5" ry="1"/><ellipse cx="14.5" cy="9" rx="1.5" ry="1"/></g></mask><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="32" stroke-dashoffset="32" d="M12 4c1.67 0 2.61 0.4 3 0.5c0.53 -0.43 1.94 -1.5 3.5 -1.5c0.34 1 0.29 2.22 0 3c0.75 1 1 2 1 3.5c0 2.19 -0.48 3.58 -1.5 4.5c-1.02 0.92 -2.11 1.37 -3.5 1.5c0.65 0.54 0.5 1.87 0.5 2.5c0 0.73 0 3 0 3M12 4c-1.67 0 -2.61 0.4 -3 0.5c-0.53 -0.43 -1.94 -1.5 -3.5 -1.5c-0.34 1 -0.29 2.22 0 3c-0.75 1 -1 2 -1 3.5c0 2.19 0.48 3.58 1.5 4.5c1.02 0.92 2.11 1.37 3.5 1.5c-0.65 0.54 -0.5 1.87 -0.5 2.5c0 0.73 0 3 0 3"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.7s" values="32;0"/></path><path stroke-dasharray="10" stroke-dashoffset="10" d="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5"><animate attributeName="d" dur="3s" repeatCount="indefinite" values="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5;M9 19c-1.406 0-3-.5-4-.5-.532 0-1 0-2-.5;M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" values="10;0"/></path></g><rect width="8" height="4" x="8" y="11" fill="currentColor" mask="url(#lineMdGithubLoop0)"><animate attributeName="y" dur="10s" keyTimes="0;0.45;0.46;0.54;0.55;1" repeatCount="indefinite" values="11;11;7;7;11;11"/></rect></symbol><use href="#ai:line-md:github-loop"></use>  </svg> </div> </div> </a><a href="https://space.bilibili.com/214528017" target="_blank"> <div class="flex h-10 w-10 flex-col justify-center rounded-lg transition-all hover:brightness-75 dark:hover:brightness-125"> <div class="flex flex-row justify-center"> <svg width="24" height="24" class="text-[var(--primary-color)]" data-icon="mingcute:bilibili-line">   <symbol id="ai:mingcute:bilibili-line" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M6.445 3.168a1 1 0 0 1 1.387.277L9.535 6h4.93l1.703-2.555a1 1 0 0 1 1.664 1.11L16.87 6H18a4 4 0 0 1 4 4v7a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-7a4 4 0 0 1 4-4h1.131l-.963-1.445a1 1 0 0 1 .277-1.387M8.986 8H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2H9.016zM9 11a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1m6 0a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"/></g></symbol><use href="#ai:mingcute:bilibili-line"></use>  </svg> </div> </div> </a> </div> </div> </div> <!-- categories --> <div class="onload-animation space-y-2 rounded-3xl bg-[var(--card-color)] p-3" style="animation-delay: calc(var(--onload-animation-delay) + 1 * var(--onload-animation-interval));" data-astro-cid-f5u63ayj> <div class="title m-[0.375rem]" data-astro-cid-f5u63ayj> <a href="/categories/" class="pl-4 text-xl font-bold text-[var(--text-color)] transition-colors hover:text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 分类 </a> </div> <div class="relative flex flex-col" data-astro-cid-f5u63ayj> <a href="/categories/fa1cffa1" class="category flex flex-row items-center justify-between rounded-lg px-3 py-2 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-f5u63ayj> <p class="text-[var(--text-color)] transition-all" data-astro-cid-f5u63ayj> ACM </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 6 </span> </a><a href="/categories/af967908" class="category flex flex-row items-center justify-between rounded-lg px-3 py-2 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-f5u63ayj> <p class="text-[var(--text-color)] transition-all" data-astro-cid-f5u63ayj> CTF </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 8 </span> </a><a href="/categories/60db1afb" class="category flex flex-row items-center justify-between rounded-lg px-3 py-2 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-f5u63ayj> <p class="text-[var(--text-color)] transition-all" data-astro-cid-f5u63ayj> 课程 </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 1 </span> </a>  </div> </div> <!-- tags --> <div class="onload-animation space-y-2 rounded-3xl bg-[var(--card-color)] p-3" style="animation-delay: calc(var(--onload-animation-delay) + 2 * var(--onload-animation-interval));" data-astro-cid-f5u63ayj> <div class="title m-[0.375rem]" data-astro-cid-f5u63ayj> <a href="/tags/" class="pl-4 text-xl font-bold text-[var(--text-color)] transition-colors hover:text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 标签 </a> </div> <div class="relative flex max-w-[224px] flex-row flex-wrap" data-astro-cid-f5u63ayj> <a href="/tags/2118cbc1" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 学习 </p> </a><a href="/tags/e6f04ffb" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 代码 </p> </a><a href="/tags/fa1cffa1" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> ACM </p> </a><a href="/tags/af967908" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> CTF </p> </a><a href="/tags/2e8ec0f0" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> 逆向 </p> </a><a href="/tags/6a2a781c" class="tag m-1 grow rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-f5u63ayj> <p class="text-center text-sm text-[var(--primary-color)]" data-astro-cid-f5u63ayj> PWN </p> </a>  </div> </div> </div> </div>  </div> <div class="transition-leaving w-full space-y-8" data-astro-cid-ouamjn2i> <main class="content onload-animation" data-astro-cid-ouamjn2i>   <div class="article-wrapper" data-astro-cid-gjtny2mx> <div class="article" data-astro-cid-gjtny2mx> <div class="prose prose-sm lg:prose-base dark:prose-invert shrink max-w-full ">  <div class="hidden" data-pagefind-body data-pagefind-weight="10" data-pagefind-meta="title">CTF-reverse逆向分析解题常用脚本汇总</div><div data-pagefind-body><blockquote>
+<p>文章转载自<a href="https://blog.csdn.net/liKeQing1027520/article/details/138533062?spm=1001.2014.3001.5502">CTF-reverse逆向分析解题常用脚本汇总_ctf reverse-CSDN博客</a></p>
+</blockquote>
+<blockquote>
+<p>注：本篇用于记录一些CTF-reverse中可能用上的脚本，脚本都来源于博主解出某道题后留下，如果遇上类似的题目，根据<strong>脚本中****注释</strong>的提示更改对应的<strong>密文密钥或条件</strong>即可快速解题！
+持续更新！！<strong>点个收藏关注不迷路~</strong></p>
+</blockquote>
+<h2 id="一aes解密"><a aria-hidden="true" tabindex="-1" href="#一aes解密"><span class="icon icon-link"></span></a>一，AES解密</h2>
+<p>原文链接-><a href="https://blog.csdn.net/liKeQing1027520/article/details/137024097">AES加密解密算法_aes解密-CSDN博客</a></p>
+<blockquote>
+<p>你需要：
+①在题目中找到密钥，赋值给脚本中的key变量
+②找到密文，赋值给脚本中的cipher变量
+③运行即可获得明文</p>
+</blockquote>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>from Crypto.Cipher import AES</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span>def AES_dec(cipher, key):</span></span>
+<span class="line"><span>    key = key.encode()</span></span>
+<span class="line"><span>    cipher = bytes.fromhex(cipher)</span></span>
+<span class="line"><span>    aes = AES.new(key, AES.MODE_ECB) #创建一个AES解密对象，需要传入密钥和加密模式（这里是ECB模式）</span></span>
+<span class="line"><span>    return aes.decrypt(cipher).decode() #返回解密结果</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>if __name__ == '__main__':</span></span>
+<span class="line"><span>    key = '1234567890123456' </span></span>
+<span class="line"><span>    #注意解密过程中密文的格式需要为byte类型，本题获取到的是十六进制文本，处理成字符串后使用bytes.fromhex()函数转为对应的字节数组</span></span>
+<span class="line"><span>    cipher = 'F3498AED82CE44E2357C23F5DCF897A43B6A7BFEE0467C591E301CBC38F99913'</span></span>
+<span class="line"><span>    res = AES_dec(cipher, key)</span></span>
+<span class="line"><span>    print(res)</span></span></code></pre>
+<h2 id="二z3求解器求解约束方程未知数"><a aria-hidden="true" tabindex="-1" href="#二z3求解器求解约束方程未知数"><span class="icon icon-link"></span></a> 二，z3求解器（求解约束方程未知数）</h2>
+<p>原文链接-><a href="https://blog.csdn.net/liKeQing1027520/article/details/138047537">z3求解器脚本（CTF-reverse必备）-CSDN博客</a></p>
+<blockquote>
+<p>你需要：
+①使用第一个脚本可以将题目中的一大串条件转换成列表，以便直接套用第二个脚本，具体看本篇-> <a href="https://blog.csdn.net/liKeQing1027520/article/details/141174137?spm=1001.2014.3001.5502">批量替换字符串中的某子串序列为对应的另一子串序列（z3求解器解多元方程时很好用）-CSDN博客</a>
+②将脚本1处理得到的列表赋值给脚本2的fc列表
+②运行后即可获得解（该脚本自动将解按v[0]~v[n]的升序<a href="https://blog.csdn.net/liKeQing1027520/article/details/137441614">CTF-reverse-simpleRE（base64变表逆向）-CSDN博客</a>排列并转换成了对应的ASCII码，如果题目有格外加密，自行修改脚本即可）</p>
+</blockquote>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>import re</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>def replace_func(match):</span></span>
+<span class="line"><span>    shift = 2 #shift是指第一个未知数和0的差，例如：如果题目中第一个未知数是v2（如果是v3），那么shift就设置成2（就设置成3）</span></span>
+<span class="line"><span>    index = int(match.group(1)) - shift</span></span>
+<span class="line"><span>    return str(f'v[{index}]')  # 返回字符串'v[a后数字-1]'，用其替换匹配到的an</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>if __name__ == '__main__':</span></span>
+<span class="line"><span>    s1 = "245 * v6 + 395 * v5 + 3541 * v4 + 2051 * v3 + 3201 * v2 + 1345 * v7 != 855009| | 3270 * v6 + 3759 * v5 + 3900 * v4 + 3963 * v3 + 1546 * v2 + 3082 * v7 != 1515490| | 526 * v6 + 2283 * v5 + 3349 * v4 + 2458 * v3 + 2012 * v2 + 268 * v7 != 854822| | 3208 * v6 + 2021 * v5 + 3146 * v4 + 1571 * v3 + 2569 * v2 + 1395 * v7 != 1094422| | 3136 * v6 + 3553 * v5 + 2997 * v4 + 1824 * v3 + 1575 * v2 + 1599 * v7 != 1136398| | 2300 * v6 + 1349 * v5 + 86 * v4 + 3672 * v3 + 2908 * v2 + 1681 * v7 != 939991| | 212 * v22 + 153 * v21 + 342 * v20 + 490 * v12 + 325 * v11 + 485 * v10 + 56 * v9 + 202 * v8 + 191 * v23 != 245940| | 348 * v22 + 185 * v21 + 134 * v20 + 153 * v12 + 460 * v9 + 207 * v8 + 22 * v10 + 24 * v11 + 22 * v23 != 146392| | 177 * v22 + 231 * v21 + 489 * v20 + 339 * v12 + 433 * v11 + 311 * v10 + 164 * v9 + 154 * v8 + 100 * v23 != 239438| | 68 * v20 + 466 * v12 + 470 * v11 + 22 * v10 + 270 * v9 + 360 * v8 + 337 * v21 + 257 * v22 + 82 * v23 != 233887| | 246 * v22 + 235 * v21 + 468 * v20 + 91 * v12 + 151 * v11 + 197 * v8 + 92 * v9 + 73 * v10 + 54 * v23 != 152663| | 241 * v22 + 377 * v21 + 131 * v20 + 243 * v12 + 233 * v11 + 55 * v10 + 376 * v9 + 242 * v8 + 343 * v23 != 228375| | 356 * v22 + 200 * v21 + 136 * v11 + 301 * v10 + 284 * v9 + 364 * v8 + 458 * v12 + 5 * v20 + 61 * v23 != 211183| | 154 * v22 + 55 * v21 + 406 * v20 + 107 * v12 + 80 * v10 + 66 * v8 + 71 * v9 + 17 * v11 + 71 * v23 != 96788| | 335 * v22 + 201 * v21 + 197 * v11 + 280 * v10 + 409 * v9 + 56 * v8 + 494 * v12 + 63 * v20 + 99 * v23 != 204625| | 428 * v18 + 1266 * v17 + 1326 * v16 + 1967 * v15 + 3001 * v14 + 81 * v13 + 2439 * v19 != 1109296| | 2585 * v18 + 4027 * v17 + 141 * v16 + 2539 * v15 + 3073 * v14 + 164 * v13 + 1556 * v19 != 1368547| | 2080 * v18 + 358 * v17 + 1317 * v16 + 1341 * v15 + 3681 * v14 + 2197 * v13 + 1205 * v19 != 1320274| | 840 * v18 + 1494 * v17 + 2353 * v16 + 235 * v15 + 3843 * v14 + 1496 * v13 + 1302 * v19 != 1206735| | 101 * v18 + 2025 * v17 + 2842 * v16 + 1559 * v15 + 2143 * v14 + 3008 * v13 + 981 * v19 != 1306983| | 1290 * v18 + 3822 * v17 + 1733 * v16 + 292 * v15 + 816 * v14 + 1017 * v13 + 3199 * v19 != 1160573"  # 定义包含an的字符串</span></span>
+<span class="line"><span>    s1 += '| | 186 * v18 + 2712 * v17 + 2136 * v16 + 98 * v13 + 138 * v14 + 3584 * v15 + 1173 * v19 == 1005746'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    s1 = re.sub(r'v(2[0-9]|1[0-9]|[1-9])', replace_func, s1)</span></span>
+<span class="line"><span>    # sub函数参数, pattern、repl、string分别表示：正则表达式匹配规则、替换后结果（可以是函数也可以是常量）、要被查找替换的原始字符串</span></span>
+<span class="line"><span>    s1 = re.sub('!', '=', s1) #有些题目给的条件的方程是用'||'关系运算符连接的不等式方程，需要用这一行代码将'!'替换成'='变成等式方程</span></span>
+<span class="line"><span>    res = s1.split('| | ')</span></span>
+<span class="line"><span>    print(res)</span></span>
+<span class="line"><span></span></span></code></pre>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>from z3 import *</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>def solver_eng(fc):</span></span>
+<span class="line"><span>    # 创建解释器对象</span></span>
+<span class="line"><span>    solver = Solver()</span></span>
+<span class="line"><span>    # 添加约束方程</span></span>
+<span class="line"><span>    for i in range(len(fc)):</span></span>
+<span class="line"><span>        solver.add(eval(fc[i])) #eval函数会将字符串形式的方程转换为z3模块能解析的方程</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    # 求解并转化为字符输出，得到flag</span></span>
+<span class="line"><span>    if solver.check() == sat:  # check()方法用来判断是否有解，sat(即satisify)表示满足有解</span></span>
+<span class="line"><span>        ans = solver.model()  # model()方法得到解</span></span>
+<span class="line"><span>        for i in v:</span></span>
+<span class="line"><span>            print(chr(ans[i].as_long()), end='')</span></span>
+<span class="line"><span>    # 一般不会无解，如果无解八成是未知数变量的类型不符合，或约束方程添加错误</span></span>
+<span class="line"><span>    else:</span></span>
+<span class="line"><span>        print("no ans!")</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>if __name__ == '__main__':</span></span>
+<span class="line"><span>    # 设置方程，请用脚本1将条件中的所有方程处理成列表，然后赋值给fc列表（这样你就不用一个一个方程慢慢去复制了）</span></span>
+<span class="line"><span>    fc = ['245 * v[4] + 395 * v[3] + 3541 * v[2] + 2051 * v[1] + 3201 * v[0] + 1345 * v[5] == 855009', '3270 * v[4] + 3759 * v[3] + 3900 * v[2] + 3963 * v[1] + 1546 * v[0] + 3082 * v[5] == 1515490', '526 * v[4] + 2283 * v[3] + 3349 * v[2] + 2458 * v[1] + 2012 * v[0] + 268 * v[5] == 854822', '3208 * v[4] + 2021 * v[3] + 3146 * v[2] + 1571 * v[1] + 2569 * v[0] + 1395 * v[5] == 1094422', '3136 * v[4] + 3553 * v[3] + 2997 * v[2] + 1824 * v[1] + 1575 * v[0] + 1599 * v[5] == 1136398', '2300 * v[4] + 1349 * v[3] + 86 * v[2] + 3672 * v[1] + 2908 * v[0] + 1681 * v[5] == 939991', '212 * v[20] + 153 * v[19] + 342 * v[18] + 490 * v[10] + 325 * v[9] + 485 * v[8] + 56 * v[7] + 202 * v[6] + 191 * v[21] == 245940', '348 * v[20] + 185 * v[19] + 134 * v[18] + 153 * v[10] + 460 * v[7] + 207 * v[6] + 22 * v[8] + 24 * v[9] + 22 * v[21] == 146392', '177 * v[20] + 231 * v[19] + 489 * v[18] + 339 * v[10] + 433 * v[9] + 311 * v[8] + 164 * v[7] + 154 * v[6] + 100 * v[21] == 239438', '68 * v[18] + 466 * v[10] + 470 * v[9] + 22 * v[8] + 270 * v[7] + 360 * v[6] + 337 * v[19] + 257 * v[20] + 82 * v[21] == 233887', '246 * v[20] + 235 * v[19] + 468 * v[18] + 91 * v[10] + 151 * v[9] + 197 * v[6] + 92 * v[7] + 73 * v[8] + 54 * v[21] == 152663', '241 * v[20] + 377 * v[19] + 131 * v[18] + 243 * v[10] + 233 * v[9] + 55 * v[8] + 376 * v[7] + 242 * v[6] + 343 * v[21] == 228375', '356 * v[20] + 200 * v[19] + 136 * v[9] + 301 * v[8] + 284 * v[7] + 364 * v[6] + 458 * v[10] + 5 * v[18] + 61 * v[21] == 211183', '154 * v[20] + 55 * v[19] + 406 * v[18] + 107 * v[10] + 80 * v[8] + 66 * v[6] + 71 * v[7] + 17 * v[9] + 71 * v[21] == 96788', '335 * v[20] + 201 * v[19] + 197 * v[9] + 280 * v[8] + 409 * v[7] + 56 * v[6] + 494 * v[10] + 63 * v[18] + 99 * v[21] == 204625', '428 * v[16] + 1266 * v[15] + 1326 * v[14] + 1967 * v[13] + 3001 * v[12] + 81 * v[11] + 2439 * v[17] == 1109296', '2585 * v[16] + 4027 * v[15] + 141 * v[14] + 2539 * v[13] + 3073 * v[12] + 164 * v[11] + 1556 * v[17] == 1368547', '2080 * v[16] + 358 * v[15] + 1317 * v[14] + 1341 * v[13] + 3681 * v[12] + 2197 * v[11] + 1205 * v[17] == 1320274', '840 * v[16] + 1494 * v[15] + 2353 * v[14] + 235 * v[13] + 3843 * v[12] + 1496 * v[11] + 1302 * v[17] == 1206735', '101 * v[16] + 2025 * v[15] + 2842 * v[14] + 1559 * v[13] + 2143 * v[12] + 3008 * v[11] + 981 * v[17] == 1306983', '1290 * v[16] + 3822 * v[15] + 1733 * v[14] + 292 * v[13] + 816 * v[12] + 1017 * v[11] + 3199 * v[17] == 1160573', '186 * v[16] + 2712 * v[15] + 2136 * v[14] + 98 * v[11] + 138 * v[12] + 3584 * v[13] + 1173 * v[17] == 1005746']</span></span>
+<span class="line"><span>    # 创建未知数变量</span></span>
+<span class="line"><span>    v = [Int(f'v{i}') for i in range(0, len(fc))]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    solver_eng(fc)</span></span></code></pre>
+<h2 id="三base系列解密"><a aria-hidden="true" tabindex="-1" href="#三base系列解密"><span class="icon icon-link"></span></a>三，base系列解密</h2>
+<h3 id="一base64换表解密"><a aria-hidden="true" tabindex="-1" href="#一base64换表解密"><span class="icon icon-link"></span></a>（一）base64换表解密</h3>
+<p>原文链接-><a href="https://blog.csdn.net/liKeQing1027520/article/details/137441614">CTF-reverse-simpleRE（base64变表逆向）-CSDN博客</a></p>
+<blockquote>
+</blockquote>
+<p>你需要：
+①在题目中找到换掉的base64表，赋值给s2
+②将密文赋值给en_text
+③运行后即可获得明文</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>import base64 #导入base64模块用于解密</span></span>
+<span class="line"><span>s1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/' #标准表</span></span>
+<span class="line"><span>s2 = 'qvEJAfHmUYjBac+u8Ph5n9Od17FrICL/X0gVtM4Qk6T2z3wNSsyoebilxWKGZpRD' #base64换表</span></span>
+<span class="line"><span>en_text = '5Mc58bPHLiAx7J8ocJIlaVUxaJvMcoYMaoPMaOfg15c475tscHfM/8==' #密文</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span>map = str.maketrans(s2, s1) #用str类中的maketrans建立映射，注意第一个参数是需要映射的字符串，第二个参数是映射的目标</span></span>
+<span class="line"><span>map_text = en_text.translate(map) #映射实现替换密文，替换前是base64换表加密，替换后则是base64标准表加密</span></span>
+<span class="line"><span>print(map_text) #可以先看看标准表加密的原base64密文</span></span>
+<span class="line"><span>print(base64.b64decode(map_text)) #直接使用提供的base64解密函数解密</span></span></code></pre>
+<h3 id="二base58换表解密"><a aria-hidden="true" tabindex="-1" href="#二base58换表解密"><span class="icon icon-link"></span></a>（二）base58换表解密</h3>
+<blockquote>
+</blockquote>
+<p>和上面那个基本没啥区别说实话……会用上面那个这个你一定会用</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>import base58  # 导入base58模块用于解密</span></span>
+<span class="line"><span>s1 = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'  # 标准表</span></span>
+<span class="line"><span>s2 = 'ABCDEFGHJKLMNPQRSTUVWXYZ123456789abcdefghijkmnopqrstuvwxyz'  # base58换表</span></span>
+<span class="line"><span>en_text = 'BQ3SDnTj7vaKkMvur'  # 密文</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 用str类中的maketrans建立映射，注意第一个参数是需要映射的字符串，第二个参数是映射的目标</span></span>
+<span class="line"><span>map = str.maketrans(s2, s1)</span></span>
+<span class="line"><span>map_text = en_text.translate(map)  # 映射实现替换密文，替换前是base58换表加密，替换后则是base58标准表加密</span></span>
+<span class="line"><span>print(map_text)  # 可以先看看标准表加密的原base58密文</span></span>
+<span class="line"><span>print(base58.b58decode(map_text).decode())  # 直接使用提供的base58解密函数解密</span></span></code></pre>
+<h3 id="三应对base64魔改加密的原始脚本"><a aria-hidden="true" tabindex="-1" href="#三应对base64魔改加密的原始脚本"><span class="icon icon-link"></span></a>（三）应对base64魔改加密的原始脚本</h3>
+<p>原文链接-><a href="https://blog.csdn.net/liKeQing1027520/article/details/142416583?spm=1001.2014.3001.5501">最简单的编码（Ezbase.zip，base64魔改）-CSDN博客</a></p>
+<blockquote>
+</blockquote>
+<p>有些题目会在base64关键加密（即索引查表替换）处进行魔改，此时直接用在线解密网站和python库无法完成解密，需要用相对原始脚本来进行解密，具体看上面链接指向的文章，有例题解释</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>table = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"  # base64变表</span></span>
+<span class="line"><span>cipher = "YWJjZGVmZw=="  # 密文</span></span>
+<span class="line"><span>cipher = cipher.rstrip('=') #去除密文多余的'='</span></span>
+<span class="line"><span>_index = []</span></span>
+<span class="line"><span>key = [1, 2, 3, 4]</span></span>
+<span class="line"><span>for i in range(len(cipher)):</span></span>
+<span class="line"><span>    tmp = table.index(cipher[i])</span></span>
+<span class="line"><span>    _index.append(tmp)</span></span>
+<span class="line"><span>print(_index)</span></span>
+<span class="line"><span>for i in range(0, len(_index), 4):</span></span>
+<span class="line"><span>    a = _index[i]</span></span>
+<span class="line"><span>    b = _index[i + 1]</span></span>
+<span class="line"><span>    c = _index[i + 2] if i + 2 &#x3C; len(_index) else 0  # 添加范围检查，为未处理部分设为0</span></span>
+<span class="line"><span>    d = _index[i + 3] if i + 3 &#x3C; len(_index) else 0</span></span>
+<span class="line"><span>    sum = a &#x3C; 18 | b &#x3C; 12 | c &#x3C; 6 | d</span></span>
+<span class="line"><span>    for j in range(3):</span></span>
+<span class="line"><span>        if i * 6 + j * 8 &#x3C; len(cipher) * 8:  # 检查是否超出原始编码长度</span></span>
+<span class="line"><span>            print(chr((sum >> ((2 - j) * 8)) &#x26;amp; 0xff), end="")</span></span></code></pre>
+<h2 id="四二维四向迷宫路径求解"><a aria-hidden="true" tabindex="-1" href="#四二维四向迷宫路径求解"><span class="icon icon-link"></span></a>四，二维四向迷宫路径求解</h2>
+<blockquote>
+</blockquote>
+<p>（注：请查看原文学习使用两个脚本！这个脚本的使用相对复杂，但好用！！）</p>
+<p>原文链接-><a href="https://blog.csdn.net/liKeQing1027520/article/details/138583198?spm=1001.2014.3001.5501">CTF-reverse二维四向迷宫路径求解-CSDN博客</a></p>
+<blockquote>
+ <h3>（一）脚本一：处理迷宫为二维列表</h3> 
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="python"><code><span class="line"><span style="color:#E6EDF3">str为ida中使用快捷键[shift</span><span style="color:#FF7B72">+</span><span style="color:#E6EDF3">e]提取到的数据, 如果提取的是string literal则加上引号视作字符串，如果是C array(decimal)则加上中括号视作列表</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#79C0FF">str</span><span style="color:#FF7B72"> =</span><span style="color:#A5D6FF"> "字符串"</span><span style="color:#FF7B72">/</span><span style="color:#E6EDF3">[一维列表] </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E6EDF3">s </span><span style="color:#FF7B72">=</span><span style="color:#79C0FF"> 0</span><span style="color:#8B949E"> #s用作索引访问str, 供下面tmp列表取值</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#8B949E">#分析题目后设置迷宫的行列</span></span>
+<span class="line"><span style="color:#E6EDF3">row </span><span style="color:#FF7B72">=</span><span style="color:#8B949E">  #设置二维迷宫行数</span></span>
+<span class="line"><span style="color:#E6EDF3">col </span><span style="color:#FF7B72">=</span><span style="color:#8B949E">  #设置二维迷宫列数</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E6EDF3">maze </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> []</span></span>
+<span class="line"><span style="color:#FF7B72">for</span><span style="color:#E6EDF3"> i </span><span style="color:#FF7B72">in</span><span style="color:#79C0FF"> range</span><span style="color:#E6EDF3">(row):</span></span>
+<span class="line"><span style="color:#E6EDF3">    tmp </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> []</span></span>
+<span class="line"><span style="color:#FF7B72">    for</span><span style="color:#E6EDF3"> j </span><span style="color:#FF7B72">in</span><span style="color:#79C0FF"> range</span><span style="color:#E6EDF3">(col):</span></span>
+<span class="line"><span style="color:#E6EDF3">        tmp.append(str[s])</span></span>
+<span class="line"><span style="color:#E6EDF3">        s</span><span style="color:#FF7B72">+=</span><span style="color:#79C0FF">1</span></span>
+<span class="line"><span style="color:#E6EDF3">    maze.append(tmp) </span><span style="color:#8B949E">#凑一行添加一行到迷宫中</span></span>
+<span class="line"><span style="color:#79C0FF">print</span><span style="color:#E6EDF3">(maze)</span></span></code></pre>
+ <h3>（二）脚本二：获得迷宫路径</h3> 
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="python"><code><span class="line"><span style="color:#FF7B72">from</span><span style="color:#E6EDF3"> collections </span><span style="color:#FF7B72">import</span><span style="color:#E6EDF3"> deque</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#8B949E">#设置二维四向迷宫, 如果题目是多个小迷宫问题, 拆分多次调用脚本获取路径即可</span></span>
+<span class="line"><span style="color:#E6EDF3">maze </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> 二维列表迷宫</span></span>
+<span class="line"><span style="color:#E6EDF3">path_len </span><span style="color:#FF7B72">=</span><span style="color:#FF7B72"> 0x</span><span style="color:#79C0FF">7fffffff</span><span style="color:#8B949E">#如果题目未给出终点坐标，则一定会指定路径的长度，在此处修改路径长度，否则请保留path_len的极大值</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#8B949E">#进行BFS寻找路径</span></span>
+<span class="line"><span style="color:#FF7B72">def</span><span style="color:#D2A8FF"> bfs</span><span style="color:#E6EDF3">(start, end, barrier):</span></span>
+<span class="line"><span style="color:#E6EDF3">    directions </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> [(</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">, </span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">), (</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">, </span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">), (</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">-</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">), (</span><span style="color:#FF7B72">-</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">, </span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">)] </span><span style="color:#8B949E"># 定义四个方向的移动</span></span>
+<span class="line"><span style="color:#FF7B72">    for</span><span style="color:#E6EDF3"> i </span><span style="color:#FF7B72">in</span><span style="color:#79C0FF"> range</span><span style="color:#E6EDF3">(</span><span style="color:#79C0FF">len</span><span style="color:#E6EDF3">(maze)):</span><span style="color:#8B949E">#获取起点和终点在列表中的索引</span></span>
+<span class="line"><span style="color:#FF7B72">        for</span><span style="color:#E6EDF3"> j </span><span style="color:#FF7B72">in</span><span style="color:#79C0FF"> range</span><span style="color:#E6EDF3">(</span><span style="color:#79C0FF">len</span><span style="color:#E6EDF3">(maze[i])):</span></span>
+<span class="line"><span style="color:#FF7B72">            if</span><span style="color:#E6EDF3">(maze[i][j] </span><span style="color:#FF7B72">==</span><span style="color:#E6EDF3"> start):</span></span>
+<span class="line"><span style="color:#E6EDF3">                start </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> (i, j)</span></span>
+<span class="line"><span style="color:#FF7B72">            if</span><span style="color:#E6EDF3">(maze[i][j] </span><span style="color:#FF7B72">==</span><span style="color:#E6EDF3"> end):</span></span>
+<span class="line"><span style="color:#E6EDF3">                end </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> (i, j)</span></span>
+<span class="line"><span style="color:#8B949E">	#以下均是bfs算法套路</span></span>
+<span class="line"><span style="color:#E6EDF3">	queue </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> deque()</span></span>
+<span class="line"><span style="color:#E6EDF3">	queue.append((start, [start]))  </span><span style="color:#8B949E"># (当前位置, 路径)</span></span>
+<span class="line"><span style="color:#E6EDF3">	visited </span><span style="color:#FF7B72">=</span><span style="color:#79C0FF"> set</span><span style="color:#E6EDF3">()</span></span>
+<span class="line"><span style="color:#E6EDF3">	visited.add(start)</span></span>
+<span class="line"><span style="color:#FF7B72">    while</span><span style="color:#E6EDF3"> queue:</span></span>
+<span class="line"><span style="color:#E6EDF3">        position, path </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> queue.popleft()</span></span>
+<span class="line"><span style="color:#FF7B72">        if</span><span style="color:#E6EDF3"> position </span><span style="color:#FF7B72">==</span><span style="color:#E6EDF3"> end:</span></span>
+<span class="line"><span style="color:#FF7B72">            return</span><span style="color:#E6EDF3"> path</span></span>
+<span class="line"><span style="color:#FF7B72">        elif</span><span style="color:#79C0FF"> len</span><span style="color:#E6EDF3">(path)</span><span style="color:#FF7B72">==</span><span style="color:#E6EDF3">path_len:</span></span>
+<span class="line"><span style="color:#FF7B72">            return</span><span style="color:#E6EDF3"> path</span></span>
+<span class="line"><span style="color:#FF7B72">        for</span><span style="color:#E6EDF3"> d </span><span style="color:#FF7B72">in</span><span style="color:#E6EDF3"> directions:</span></span>
+<span class="line"><span style="color:#E6EDF3">          next_position </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> (position[</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">] </span><span style="color:#FF7B72">+</span><span style="color:#E6EDF3"> d[</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">], position[</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">] </span><span style="color:#FF7B72">+</span><span style="color:#E6EDF3"> d[</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">])</span></span>
+<span class="line"><span style="color:#FF7B72">          if</span><span style="color:#79C0FF"> 0</span><span style="color:#FF7B72"> &#x3C;=</span><span style="color:#E6EDF3"> next_position[</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">] </span><span style="color:#FF7B72">&#x3C;</span><span style="color:#79C0FF"> len</span><span style="color:#E6EDF3">(maze) </span><span style="color:#FF7B72">and</span><span style="color:#79C0FF"> 0</span><span style="color:#FF7B72"> &#x3C;=</span><span style="color:#E6EDF3"> next_position[</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">] </span><span style="color:#FF7B72">&#x3C;</span><span style="color:#79C0FF"> len</span><span style="color:#E6EDF3">(maze[</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">]) </span><span style="color:#FF7B72">and</span><span style="color:#E6EDF3"> \ </span></span>
+<span class="line"><span style="color:#E6EDF3">             maze[next_position[</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">]][next_position[</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">]] </span><span style="color:#FF7B72">!=</span><span style="color:#E6EDF3"> barrier </span><span style="color:#FF7B72">and</span><span style="color:#E6EDF3"> next_position </span><span style="color:#FF7B72">not</span><span style="color:#FF7B72"> in</span><span style="color:#E6EDF3"> visited:</span></span>
+<span class="line"><span style="color:#E6EDF3">              queue.append((next_position, path </span><span style="color:#FF7B72">+</span><span style="color:#E6EDF3"> [next_position]))</span></span>
+<span class="line"><span style="color:#E6EDF3">              visited.add(next_position)</span></span>
+<span class="line"><span style="color:#FF7B72">    return</span><span style="color:#79C0FF"> None</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#8B949E">#执行BFS搜索并打印结果</span></span>
+<span class="line"><span style="color:#FF7B72">if</span><span style="color:#79C0FF"> __name__</span><span style="color:#FF7B72"> ==</span><span style="color:#A5D6FF"> '__main__'</span><span style="color:#E6EDF3">:</span></span>
+<span class="line"><span style="color:#8B949E">    #maze[起点x坐标][起点y坐标] = 'S' #如果题目给了起点终点的坐标，在这里直接给起点和终点添加特征</span></span>
+<span class="line"><span style="color:#8B949E">    #maze[终点x坐标][终点y坐标] = 'E'</span></span>
+<span class="line"><span style="color:#E6EDF3">    </span></span>
+<span class="line"><span style="color:#E6EDF3">    path </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> bfs(</span><span style="color:#A5D6FF">'S'</span><span style="color:#E6EDF3">, </span><span style="color:#A5D6FF">'E'</span><span style="color:#E6EDF3">, </span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">) </span><span style="color:#8B949E">#bfs函数传入参数代表起点、终点、障碍的特征(若题目给出的数据无特征, 手动添加特征即可, 通常障碍是1也有可能是0或其它字符如'#')</span></span>
+<span class="line"><span style="color:#79C0FF">    print</span><span style="color:#E6EDF3">(</span><span style="color:#A5D6FF">"移动路径坐标："</span><span style="color:#E6EDF3">, path)</span></span>
+<span class="line"><span style="color:#79C0FF">    print</span><span style="color:#E6EDF3">(</span><span style="color:#A5D6FF">"移动路径方位：{"</span><span style="color:#E6EDF3">, </span><span style="color:#FFA657">end</span><span style="color:#FF7B72">=</span><span style="color:#A5D6FF">''</span><span style="color:#E6EDF3">)</span></span>
+<span class="line"><span style="color:#FF7B72">    for</span><span style="color:#E6EDF3"> i </span><span style="color:#FF7B72">in</span><span style="color:#79C0FF"> range</span><span style="color:#E6EDF3">(</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3"> ,</span><span style="color:#79C0FF">len</span><span style="color:#E6EDF3">(path)):</span></span>
+<span class="line"><span style="color:#E6EDF3">        x1, y1, x2, y2 </span><span style="color:#FF7B72">=</span><span style="color:#E6EDF3"> path[i </span><span style="color:#FF7B72">-</span><span style="color:#79C0FF"> 1</span><span style="color:#E6EDF3">][</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">], path[i </span><span style="color:#FF7B72">-</span><span style="color:#79C0FF"> 1</span><span style="color:#E6EDF3">][</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">], path[i][</span><span style="color:#79C0FF">0</span><span style="color:#E6EDF3">], path[i][</span><span style="color:#79C0FF">1</span><span style="color:#E6EDF3">]</span></span>
+<span class="line"><span style="color:#FF7B72">        if</span><span style="color:#E6EDF3">(x1 </span><span style="color:#FF7B72">></span><span style="color:#E6EDF3"> x2):</span><span style="color:#8B949E">#上</span></span>
+<span class="line"><span style="color:#79C0FF">            print</span><span style="color:#E6EDF3">(</span><span style="color:#A5D6FF">"w"</span><span style="color:#E6EDF3">, </span><span style="color:#FFA657">end</span><span style="color:#FF7B72">=</span><span style="color:#A5D6FF">''</span><span style="color:#E6EDF3">)</span></span>
+<span class="line"><span style="color:#FF7B72">        elif</span><span style="color:#E6EDF3">(x1 </span><span style="color:#FF7B72">&#x3C;</span><span style="color:#E6EDF3"> x2):</span><span style="color:#8B949E">#下</span></span>
+<span class="line"><span style="color:#79C0FF">            print</span><span style="color:#E6EDF3">(</span><span style="color:#A5D6FF">"s"</span><span style="color:#E6EDF3">, </span><span style="color:#FFA657">end</span><span style="color:#FF7B72">=</span><span style="color:#A5D6FF">''</span><span style="color:#E6EDF3">)</span></span>
+<span class="line"><span style="color:#FF7B72">        elif</span><span style="color:#E6EDF3">(y1 </span><span style="color:#FF7B72">></span><span style="color:#E6EDF3"> y2):</span><span style="color:#8B949E">#左</span></span>
+<span class="line"><span style="color:#79C0FF">            print</span><span style="color:#E6EDF3">(</span><span style="color:#A5D6FF">"a"</span><span style="color:#E6EDF3">, </span><span style="color:#FFA657">end</span><span style="color:#FF7B72">=</span><span style="color:#A5D6FF">''</span><span style="color:#E6EDF3">)</span></span>
+<span class="line"><span style="color:#FF7B72">        elif</span><span style="color:#E6EDF3">(y1 </span><span style="color:#FF7B72">&#x3C;</span><span style="color:#E6EDF3"> y2):</span><span style="color:#8B949E">#右</span></span>
+<span class="line"><span style="color:#79C0FF">            print</span><span style="color:#E6EDF3">(</span><span style="color:#A5D6FF">"d"</span><span style="color:#E6EDF3">, </span><span style="color:#FFA657">end</span><span style="color:#FF7B72">=</span><span style="color:#A5D6FF">''</span><span style="color:#E6EDF3">)</span></span>
+<span class="line"><span style="color:#79C0FF">    print</span><span style="color:#E6EDF3">(</span><span style="color:#A5D6FF">'}'</span><span style="color:#E6EDF3">)</span></span>
+<span class="line"></span></code></pre>
+</blockquote>
+<h2 id="五凯撒密码移位解密"><a aria-hidden="true" tabindex="-1" href="#五凯撒密码移位解密"><span class="icon icon-link"></span></a>五，凯撒密码移位解密</h2>
+<p>自己写了个脚本方便快速解决各类凯撒密码rot移位，可以设置大写、小写字母和字符数字是否发生位移</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>def caesarDecode(en_text, rot, rot_upper, rot_lower, rot_diggit):</span></span>
+<span class="line"><span>    tmp=''</span></span>
+<span class="line"><span>    for i in en_text:</span></span>
+<span class="line"><span>        if(i.isupper() and rot_upper): #i是大写字母而且设置了要移大写字母</span></span>
+<span class="line"><span>            tmp += chr((ord(i) - 65 - rot) % 26 + 65)</span></span>
+<span class="line"><span>        elif(i.islower() and rot_lower):</span></span>
+<span class="line"><span>            tmp += chr((ord(i) - 97 - rot) % 26 + 97)</span></span>
+<span class="line"><span>        elif(i.isdigit() and rot_diggit):</span></span>
+<span class="line"><span>            tmp += chr((ord(i) - 48 - rot) % 26 + 48)</span></span>
+<span class="line"><span>        else:</span></span>
+<span class="line"><span>            tmp += i</span></span>
+<span class="line"><span>    return tmp</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>if __name__=='__main__':</span></span>
+<span class="line"><span>    en_text = "EmBmP5Pmn7QcPU4gLYKv5QcMmB3PWHcP5YkPq3=cT6QckkPckoRG" #设置密文</span></span>
+<span class="line"><span>    rot = 3 #设置位移数, 如果是左移设置成负数即可</span></span>
+<span class="line"><span>    rot_upper = True #移大写字母</span></span>
+<span class="line"><span>    rot_lower = True #移小写字母</span></span>
+<span class="line"><span>    rot_diggit = True #移数字字符</span></span>
+<span class="line"><span>    #一般只会移这三类，如果题目特殊，可以自行添加，在caesarDecode()函数中添加对应的分支判断即可</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    en_text = caesarDecode(en_text, rot, rot_upper, rot_lower, rot_diggit)</span></span>
+<span class="line"><span>    print(en_text)</span></span></code></pre>
+<h2 id="六对字符串进行md5加密"><a aria-hidden="true" tabindex="-1" href="#六对字符串进行md5加密"><span class="icon icon-link"></span></a>六，对字符串进行md5加密</h2>
+<p>题目经常会让对最终输出字符串进行md5加密得到的结果才是flag，使用此脚本即可对字符串进行md5加密</p>
+<blockquote>
+</blockquote>
+<p>①直接将要加密的内容赋值给flag变量
+②如果要加密成大写字母形式，使用upper()函数</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>import hashlib</span></span>
+<span class="line"><span>flag = 'ddsssddddsssdssdddddsssddddsssaassssdddsddssddwddssssssdddssssdddss'</span></span>
+<span class="line"><span>md5 = hashlib.md5() ## 创建md5对象</span></span>
+<span class="line"><span>md5.update(flag.encode()) #更新md5对象的信息，必须传入bytes类型的数据(b'xxx'格式)</span></span>
+<span class="line"><span>print(md5.hexdigest()) #获取加密后的内容</span></span>
+<span class="line"><span>print(md5.hexdigest().upper()) #如果要大写形式，加上upper()</span></span></code></pre>
+<h2 id="七字符串与十六进制"><a aria-hidden="true" tabindex="-1" href="#七字符串与十六进制"><span class="icon icon-link"></span></a>七，字符串与十六进制</h2>
+<p>字符串和十六进制常常需要互相变换来使用</p>
+<blockquote>
+</blockquote>
+<p>上面两行：将字符串中的单个字符每两位视作十六进制的ASCII码，将其转为字符
+下面两行：将字符串中的单个字符转为对应的十六进制ASCII码，并以字符串形式保存</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>#16进制转字符串</span></span>
+<span class="line"><span>hex_data = '68656c6c6f2c206b6571696e6721'</span></span>
+<span class="line"><span>print(bytes.fromhex(hex_data).decode())</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#字符串转16进制</span></span>
+<span class="line"><span>str = 'hello, keqing!'</span></span>
+<span class="line"><span>print(str.encode().hex())</span></span>
+<span class="line"><span></span></span></code></pre>
+<blockquote>
+<p>补充：上面的互转指的是将字符串中的字符统一转换成对于的ASCII码的十六进制形式，例如’A’转为’0x41’（即’65’），‘ABC’转为’0x414243’（即65、66、67）以此类推，反之同理</p>
+<p>如果需要做类似**‘0x10’(字符串)->0x10(整数)**这样去掉引号并且改变数据类型的转换，应该使用如下脚本：</p>
+</blockquote>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>#字符串转16进制</span></span>
+<span class="line"><span>str = '0x10'</span></span>
+<span class="line"><span>res1 = int(str, 16)</span></span>
+<span class="line"><span>print(res1, type(res1)) #16 &#x3C;class 'int'></span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#16进制转字符串</span></span>
+<span class="line"><span>hex_data = 0x10</span></span>
+<span class="line"><span>res2 = hex(hex_data)</span></span>
+<span class="line"><span>print(res2, type(res2)) #0x10 &#x3C;class 'str'></span></span></code></pre>
+<h2 id="八rc4加解密脚本"><a aria-hidden="true" tabindex="-1" href="#八rc4加解密脚本"><span class="icon icon-link"></span></a>八，rc4加解密脚本</h2>
+<p>rc4算法是对称的，意味着加密和解密用同一个函数，对数据调用一次rc4为加密，再调用一次就解密了</p>
+<blockquote>
+<p>你需要：
+①将密文处理成列表形式，赋值给data变量
+②将密钥处理成字符串形式，赋值给key变量
+③运行后获得明文
+（补充）2024/9/12刷到一题魔改rc4，它修改了加密轮数为128轮，故解密时所有相关轮数也需要修改成128轮；更主要的是它在初始化s盒时，做了很细微的修改，导致我一直没出flag但又没找到问题所在，故记录于此</p>
+<p><img  width="2231" height="826" loading="lazy" decoding="async" src="/_astro/f1baa087f2294c1dac815598e06da063.B00gRYPC_Z1PWsPs.webp" ></p>
+</blockquote>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>def rc4_init(s_box, key, key_len):  # rc4初始化函数，产生s_box</span></span>
+<span class="line"><span>    k = [0] * 256</span></span>
+<span class="line"><span>    i = j = 0</span></span>
+<span class="line"><span>    for i in range(256):</span></span>
+<span class="line"><span>        s_box[i] = i</span></span>
+<span class="line"><span>        k[i] = key[i % key_len]</span></span>
+<span class="line"><span>    for i in range(256):</span></span>
+<span class="line"><span>        j = (j + s_box[i] + ord(k[i])) % 256</span></span>
+<span class="line"><span>        s_box[i], s_box[j] = s_box[j], s_box[i]</span></span>
+<span class="line"><span>def rc4_crypt(s_box, data, data_len, key, key_len):  # rc4算法，由于异或运算的对合性，RC4加密解密使用同一套算法，加解密都是它</span></span>
+<span class="line"><span>    rc4_init(s_box, key, key_len)</span></span>
+<span class="line"><span>    i = j = 0</span></span>
+<span class="line"><span>    for k in range(data_len):</span></span>
+<span class="line"><span>        i = (i + 1) % 256</span></span>
+<span class="line"><span>        j = (j + s_box[i]) % 256</span></span>
+<span class="line"><span>        s_box[i], s_box[j] = s_box[j], s_box[i]</span></span>
+<span class="line"><span>        t = (s_box[i] + s_box[j]) % 256</span></span>
+<span class="line"><span>        data[k] ^= s_box[t]</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span>if __name__ == '__main__':</span></span>
+<span class="line"><span>    s_box = [0] * 257  # 定义存放s_box数据的列表</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span>    # 此处的data即要解密的密文，需要定义成列表形式，其中的元素可以是十六进制或十进制数</span></span>
+<span class="line"><span>    # 如果题目给出的是字符串，需要你自己先把数据处理成列表形式再套用脚本</span></span>
+<span class="line"><span>    data = [235, 13, 97, 41, 191, 155, 5, 34, 243, 50, 40, 151, 227, 134,</span></span>
+<span class="line"><span>            77, 45, 90, 42, 163, 85, 170, 213, 180, 108, 139, 81, 177]  </span></span>
+<span class="line"><span>    #key一定要字符串</span></span>
+<span class="line"><span>    key = "wanyuanshenwande"</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span>    rc4_crypt(s_box, data, len(data), key, len(key))</span></span>
+<span class="line"><span>    for i in data:</span></span>
+<span class="line"><span>        print(chr(i), end='')</span></span>
+<span class="line"><span></span></span></code></pre>
+<h2 id="九tea加解密脚本"><a aria-hidden="true" tabindex="-1" href="#九tea加解密脚本"><span class="icon icon-link"></span></a>九，tea加解密脚本</h2>
+<p>原文链接-><a href="https://blog.csdn.net/liKeQing1027520/article/details/141287289">tea 加密解密算法（面向ctf-reverse使用，光速学会tea逆向套路）-CSDN博客</a></p>
+<blockquote>
+</blockquote>
+<p>你需要：
+①根据题目具体的tea魔改，修改对应的delta值、sum初始值、三行经典特征加密代码
+②分析题目，找到密钥（由4个32位无符号整数组成）
+③找到密文，密文出现的方式因题目迥异，但可以肯定的是单次调用tea解密时只传入2个32位无符号整数
+④按脚本main函数中的注释提示，处理好密钥和密文，输出部分的固定不动（除非明文要的不是字符，那你具体分析），运行即可获得明文</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>#include &#x3C;stdint.h></span></span>
+<span class="line"><span>#include &#x3C;stdio.h></span></span>
+<span class="line"><span>void tea_enc(uint32_t* v, uint32_t* k) {</span></span>
+<span class="line"><span>    uint32_t v0 = v[0], v1 = v[1];  // v0、v1分别是明文的左、右半部分</span></span>
+<span class="line"><span>    uint32_t sum = 0;               // sum用作加密过程中的一个累加变量</span></span>
+<span class="line"><span>    uint32_t delta = 0xd33b470;     //作为sum每次累加的变化值，题目中往往会修改此值</span></span>
+<span class="line"><span>    for (int i = 0; i &#x3C; 32; i++) {  // tea加密进行32轮</span></span>
+<span class="line"><span>        //以下3行是核心加密过程，题目中往往会对部分细节做出修改（但由于异或的对称性质，根本不需要记，写解密函数时照抄就行了）</span></span>
+<span class="line"><span>        sum += delta;</span></span>
+<span class="line"><span>        v0 += ((v1 &#x3C; 4) + k[0]) ^ (v1 + sum) ^ ((v1 >> 5) + k[1]);</span></span>
+<span class="line"><span>        v1 += ((v0 &#x3C; 4) + k[2]) ^ (v0 + sum) ^ ((v0 >> 5) + k[3]);</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    // v0和v1只是加密的临时变量，因此加密后的内容要还给v数组</span></span>
+<span class="line"><span>    v[0] = v0;</span></span>
+<span class="line"><span>    v[1] = v1;</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>void tea_dec(uint32_t* v, uint32_t* k) {</span></span>
+<span class="line"><span>    uint32_t v0 = v[0], v1 = v[1];  // v0、v1分别是密文的左、右半部分</span></span>
+<span class="line"><span>    uint32_t delta = 0xd33b470;     //作为sum每次累加的变化值，题目中往往会修改此值</span></span>
+<span class="line"><span>    uint32_t sum = 32 * delta;      //此处需要分析32轮加密结束后sum的值与delta的变化, 以此处加密为例子，32轮每次sum+=delta，因此最后sum=32*delta</span></span>
+<span class="line"><span>    for (int i = 0; i &#x3C; 32; i++) {  // tea加密进行32轮</span></span>
+<span class="line"><span>        //根据加密时的顺序颠倒下面3行的顺序，将加法改为减法（异或部分都是整体，不用管），就是逆向解密过程</span></span>
+<span class="line"><span>        v1 -= ((v0 &#x3C; 4) + k[2]) ^ (v0 + sum) ^ ((v0 >> 5) + k[3]);</span></span>
+<span class="line"><span>        v0 -= ((v1 &#x3C; 4) + k[0]) ^ (v1 + sum) ^ ((v1 >> 5) + k[1]);</span></span>
+<span class="line"><span>        sum -= delta;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    // 因此解密后的内容要还给v数组</span></span>
+<span class="line"><span>    v[0] = v0;</span></span>
+<span class="line"><span>    v[1] = v1;</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>int main() {</span></span>
+<span class="line"><span>    // k为加解密密钥，4个32位无符号整数，密钥长度为128位</span></span>
+<span class="line"><span>    uint32_t k[4] = {1, 2, 3, 4};</span></span>
+<span class="line"><span>    // v为要加解密的数据，两个32位无符号整数</span></span>
+<span class="line"><span>    //但是稍微难一点点的都不会直接加密两个uint32_t，除非签到题。像这里的例子就是给了32个uint8_t</span></span>
+<span class="line"><span>    //（常见的题目还有给几个uint32_t的，其实无非是拆开写成0x17、0x65...和连着写成0x1765的区别）</span></span>
+<span class="line"><span>    //在后面的循环里每次传两组，每组4个组成uint32_t用于tea算法</span></span>
+<span class="line"><span>    int8_t input[33] = {0x17, 0x65, 0x54, 0x89, 0xed, 0x65, 0x46, 0x32, 0x3d, 0x58, 0xa9, 0xfd, 0xe2, 0x5e, 0x61, 0x97,</span></span>
+<span class="line"><span>                        0xe4, 0x60, 0xf1, 0x91, 0x73, 0xe9, 0xe9, 0xa2, 0x59, 0xcb, 0x9a, 0x99, 0xec, 0xb1, 0xe1, 0x7d};</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    for (int i = 0; i &#x3C; 32; i += 8) {</span></span>
+<span class="line"><span>        //每组4个组成uint32_t用于tea算法，tea算法每次加解密操作的v一定是两个uint_32，至于怎么传入两个uint_32，题目有各种呈现方式，需要做题者自行分析</span></span>
+<span class="line"><span>        uint32_t v[2] = {*(uint32_t*)&#x26;amp;input[i], *(uint32_t*)&#x26;amp;input[i + 4]};</span></span>
+<span class="line"><span>        tea_dec(v, k);</span></span>
+<span class="line"><span>        </span></span>
+<span class="line"><span>        // tea输出字符的固定算法，外层循环两次是因为明文分为左半和右半两个uint32_t</span></span>
+<span class="line"><span>        // 内层循环4次是因为一个字符占1个字节即8位，每次&#x26;amp;0xff可以摘下最后1字节打印出对应ASCII字符，然后>>8准备下一字节</span></span>
+<span class="line"><span>        for (int j = 0; j &#x3C; 2; j++) {</span></span>
+<span class="line"><span>            for (int k = 0; k &#x3C; 4; k++) {</span></span>
+<span class="line"><span>                printf("%c", v[j] &#x26;amp; 0xff);</span></span>
+<span class="line"><span>                v[j] >>= 8;</span></span>
+<span class="line"><span>            }</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    return 0;</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<h2 id="十小端序转大端序"><a aria-hidden="true" tabindex="-1" href="#十小端序转大端序"><span class="icon icon-link"></span></a>十，小端序转大端序</h2>
+<blockquote>
+</blockquote>
+<p>你需要
+①将十六进制小端序数据赋值给变量hex_data
+②如果不希望转换后的数据以0x前缀两两分隔，修改little_to_big()函数中formatted_hex变量等号右边的代码
+③运行获得对应的大端序数据</p>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>import struct</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>def little_to_big(hex_value):</span></span>
+<span class="line"><span>    # 打包成小端序然后立刻解包成大端序</span></span>
+<span class="line"><span>    big_endian_bytes = struct.pack('&#x3C;Q', hex_value)</span></span>
+<span class="line"><span>    # 转换为16进制字符串并去除0x和L（长整型标识）</span></span>
+<span class="line"><span>    big_endian_hex = big_endian_bytes.hex()</span></span>
+<span class="line"><span>    # 每两个字符分隔</span></span>
+<span class="line"><span>    splitted_hex = [big_endian_hex[i:i+2]</span></span>
+<span class="line"><span>                    for i in range(0, len(big_endian_hex), 2)]</span></span>
+<span class="line"><span>    # 加入0x前缀并以逗号和空格分隔</span></span>
+<span class="line"><span>    formatted_hex = ', '.join(['0x' + x for x in splitted_hex])</span></span>
+<span class="line"><span>    return formatted_hex</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>if __name__ == '__main__':</span></span>
+<span class="line"><span>    hex_data = [</span></span>
+<span class="line"><span>        0x364A65466C271216,</span></span>
+<span class="line"><span>        0x2447243568082139,</span></span>
+<span class="line"><span>        0x29323C0F5A1A7D60,</span></span>
+<span class="line"><span>        0x4D647C3C45531544,</span></span>
+<span class="line"><span>        0x74152339130F7024,</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>    for value in hex_data:</span></span>
+<span class="line"><span>        res = little_to_big(value)</span></span>
+<span class="line"><span>        print(res)</span></span>
+<span class="line"><span></span></span></code></pre>
+<h2 id="十一sm4加解密脚本"><a aria-hidden="true" tabindex="-1" href="#十一sm4加解密脚本"><span class="icon icon-link"></span></a>十一，sm4加解密脚本</h2>
+<pre class="astro-code github-dark-default" style="background-color:#0d1117;color:#e6edf3; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT</span></span>
+<span class="line"><span>import base64</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>class SM4Utils:</span></span>
+<span class="line"><span>    secret_key = b''</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    def __init__(self, secret_key):</span></span>
+<span class="line"><span>        self.secret_key = secret_key</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    # 加密方法</span></span>
+<span class="line"><span>    def encryptData_ECB(self, plain_text):</span></span>
+<span class="line"><span>        # 创建 SM4对象</span></span>
+<span class="line"><span>        crypt_sm4 = CryptSM4()</span></span>
+<span class="line"><span>        # 设置key</span></span>
+<span class="line"><span>        crypt_sm4.set_key(self.secret_key, SM4_ENCRYPT)</span></span>
+<span class="line"><span>        # 调用加密方法加密(十六进制的bytes类型)</span></span>
+<span class="line"><span>        encrypt_value = crypt_sm4.crypt_ecb(plain_text)</span></span>
+<span class="line"><span>        # 用base64.b64encode转码（编码后的bytes）</span></span>
+<span class="line"><span>        cipher_text = base64.b64encode(encrypt_value)</span></span>
+<span class="line"><span>        # 返回加密后的字符串</span></span>
+<span class="line"><span>        return cipher_text.decode('utf-8', 'ignore')</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    def decryptData_ECB(self, cipher_text):</span></span>
+<span class="line"><span>        crypt_sm4 = CryptSM4()</span></span>
+<span class="line"><span>        crypt_sm4.set_key(self.secret_key, SM4_DECRYPT)</span></span>
+<span class="line"><span>        # 将转入参数base64.b64decode解码成十六进制的bytes类型</span></span>
+<span class="line"><span>        byt_cipher_text = base64.b64decode(cipher_text)</span></span>
+<span class="line"><span>        # 调用加密方法解密，解密后为bytes类型</span></span>
+<span class="line"><span>        decrypt_value = crypt_sm4.crypt_ecb(byt_cipher_text)</span></span>
+<span class="line"><span>        return decrypt_value.decode('utf-8', 'ignore')</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    def encryptData_CBC(self, iv, key, plain_text):</span></span>
+<span class="line"><span>        # 创建 SM4对象</span></span>
+<span class="line"><span>        crypt_sm4 = CryptSM4()</span></span>
+<span class="line"><span>        # 设置key</span></span>
+<span class="line"><span>        crypt_sm4.set_key(key, SM4_ENCRYPT)</span></span>
+<span class="line"><span>        # 调用加密方法加密(十六进制的bytes类型)</span></span>
+<span class="line"><span>        encrypt_value = crypt_sm4.crypt_cbc(iv, plain_text)</span></span>
+<span class="line"><span>        # 用base64.b64encode转码（编码后的bytes）</span></span>
+<span class="line"><span>        cipher_text = base64.b64encode(encrypt_value)</span></span>
+<span class="line"><span>        # 返回加密后的字符串</span></span>
+<span class="line"><span>        return cipher_text.decode('utf-8', 'ignore')</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    def decryptData_CBC(self, iv, key, cipher_text):</span></span>
+<span class="line"><span>        crypt_sm4 = CryptSM4()</span></span>
+<span class="line"><span>        # secret_key = b"K0qBoObS8kmfjemG"</span></span>
+<span class="line"><span>        crypt_sm4.set_key(self.secret_key, SM4_DECRYPT)</span></span>
+<span class="line"><span>        # 将转入参数base64.b64decode解码成十六进制的bytes类型</span></span>
+<span class="line"><span>        byt_cipher_text = base64.b64decode(cipher_text)</span></span>
+<span class="line"><span>        # 调用加密方法解密，解密后为bytes类型</span></span>
+<span class="line"><span>        decrypt_value = crypt_sm4.crypt_cbc(iv, byt_cipher_text)</span></span>
+<span class="line"><span>        return decrypt_value.decode('utf-8', 'ignore')</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>if __name__ == '__main__':</span></span>
+<span class="line"><span>    key = b'JeF8U9wHFOMfs2Y8'</span></span>
+<span class="line"><span>    SM4_Utils = SM4Utils(key)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    plain_text = b'kYEI25N30vqgSURbd5vEmz/yHt1SMH5YtoRKdXvuPtHrbuuaeOYgeyb1p0fgaq4D'</span></span>
+<span class="line"><span>    iv = b'UISwD9fW6cFh9SNS' #在cbc模式下才需要设置初始化向量iv，ecb模式没有这个值，分析题目用的是什么模式再决定要调用的解密方法</span></span>
+<span class="line"><span>    print(SM4_Utils.decryptData_CBC(iv, key, plain_text))</span></span></code></pre>
+<h2 id="持续更新"><a aria-hidden="true" tabindex="-1" href="#持续更新"><span class="icon icon-link"></span></a> 持续更新……</h2></div>  </div> <script type="module">const n=new MutationObserver(i);n.observe(document.body,{childList:!0,subtree:!0});document.addEventListener("DOMContentLoaded",i);function i(){n.disconnect();let r=Array.from(document.querySelectorAll("pre"));for(let e of r){if(e.parentElement?.nodeName==="DIV"&&e.parentElement?.classList.contains("code-block"))continue;let o=document.createElement("div");o.className="relative code-block";let t=document.createElement("button");t.className="copy-btn btn-regular-dark absolute active:scale-90 h-8 w-8 top-2 right-2 opacity-75 text-sm p-1.5 rounded-lg transition-all ease-in-out",e.setAttribute("tabindex","0"),e.parentNode&&e.parentNode.insertBefore(o,e);let a='<svg class="copy-btn-icon copy-icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"><path d="M368.37-237.37q-34.48 0-58.74-24.26-24.26-24.26-24.26-58.74v-474.26q0-34.48 24.26-58.74 24.26-24.26 58.74-24.26h378.26q34.48 0 58.74 24.26 24.26 24.26 24.26 58.74v474.26q0 34.48-24.26 58.74-24.26 24.26-58.74 24.26H368.37Zm0-83h378.26v-474.26H368.37v474.26Zm-155 238q-34.48 0-58.74-24.26-24.26-24.26-24.26-58.74v-515.76q0-17.45 11.96-29.48 11.97-12.02 29.33-12.02t29.54 12.02q12.17 12.03 12.17 29.48v515.76h419.76q17.45 0 29.48 11.96 12.02 11.97 12.02 29.33t-12.02 29.54q-12.03 12.17-29.48 12.17H213.37Zm155-238v-474.26 474.26Z"/></svg>',d='<svg class="copy-btn-icon success-icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"><path d="m389-377.13 294.7-294.7q12.58-12.67 29.52-12.67 16.93 0 29.61 12.67 12.67 12.68 12.67 29.53 0 16.86-12.28 29.14L419.07-288.41q-12.59 12.67-29.52 12.67-16.94 0-29.62-12.67L217.41-430.93q-12.67-12.68-12.79-29.45-.12-16.77 12.55-29.45 12.68-12.67 29.62-12.67 16.93 0 29.28 12.67L389-377.13Z"/></svg>';t.innerHTML=`<div>${a} ${d}</div>
+      `,o.appendChild(e),o.appendChild(t);let c;t.addEventListener("click",async()=>{c&&clearTimeout(c);let s=e?.querySelector("code")?.innerText;s!==void 0&&(await navigator.clipboard.writeText(s),t.classList.add("success"),c=setTimeout(()=>{t.classList.remove("success")},1e3))})}n.observe(document.body,{childList:!0,subtree:!0})}</script> <style>
+  .btn-regular-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: oklch(0.45 0.01 var(--hue));
+  }
+
+  .btn-regular-dark:hover {
+    background-color: oklch(0.5 0.01 var(--hue));
+  }
+
+  .btn-regular-dark:active {
+    background-color: oklch(0.55 0.01 var(--hue));
+  }
+
+  .btn-regular-dark.dark {
+    background-color: oklch(0.3 0.02 var(--hue));
+  }
+
+  .btn-regular-dark.dark:hover {
+    background-color: oklch(0.35 0.03 var(--hue));
+  }
+
+  .btn-regular-dark.dark:active {
+    background-color: oklch(0.4 0.03 var(--hue));
+  }
+
+  .btn-regular-dark.success {
+    background-color: oklch(0.75 0.14 var(--hue));
+  }
+
+  .btn-regular-dark.success.dark {
+    background-color: oklch(0.75 0.14 var(--hue));
+  }
+
+  .copy-btn-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.3s;
+    transform: translate(-50%, -50%);
+  }
+
+  .copy-btn .copy-icon {
+    opacity: 1;
+    fill: white;
+  }
+
+  .copy-btn .copy-icon.dark {
+    fill: rgba(255, 255, 255, 0.75);
+  }
+
+  .copy-btn.success .copy-icon {
+    opacity: 0;
+  }
+
+  .copy-btn .success-icon {
+    fill: white;
+    opacity: 0;
+  }
+
+  .copy-btn.success .success-icon {
+    opacity: 1;
+  }
+</style> <div class="fonts relative mt-4 h-32 w-full rounded-lg bg-gray-100 px-4 py-4 lg:h-36 dark:bg-[var(--background-color)]" data-astro-cid-er4ir5rx> <div class="absolute left-4 top-4 z-10 flex h-24 flex-col justify-between lg:h-28" data-astro-cid-er4ir5rx> <div class="flex flex-col items-start space-y-1" data-astro-cid-er4ir5rx> <p class="!my-0 pl-1 font-bold text-[var(--text-color)]" data-astro-cid-er4ir5rx>CTF-reverse逆向分析解题常用脚本汇总</p> <a class="rounded-md px-1 py-0.5 text-sm transition-all hover:bg-[var(--primary-color-lighten)]" id="post-url" href data-astro-cid-er4ir5rx></a> </div> <div class="ml-1 flex flex-row space-x-4 lg:space-x-8" data-astro-cid-er4ir5rx> <div class="flex flex-col" data-astro-cid-er4ir5rx> <span class="select-none text-sm text-[var(--text-color-lighten)]" data-astro-cid-er4ir5rx>作者</span> <p class="!my-0 line-clamp-1 text-sm text-[var(--text-color)] lg:text-base" data-astro-cid-er4ir5rx> 云书景 Yskye </p> </div> <div class="flex flex-col" data-astro-cid-er4ir5rx> <span class="select-none text-sm text-[var(--text-color-lighten)]" data-astro-cid-er4ir5rx>发布日期</span> <p class="!my-0 line-clamp-1 text-sm text-[var(--text-color)] lg:text-base" data-astro-cid-er4ir5rx> 2024 - 10 - 11 </p> </div> <div class="flex flex-col" data-astro-cid-er4ir5rx> <span class="select-none text-sm text-[var(--text-color-lighten)]" data-astro-cid-er4ir5rx>许可证</span> <!-- with special license -->   <!-- without special license --> <a class="line-clamp-1 text-sm text-[var(--text-color)] lg:text-base" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" data-astro-cid-er4ir5rx> CC BY-NC-SA 4.0 </a> </div> </div> </div> <div class="relative right-0 top-1/2 z-0 flex h-32 -translate-y-1/2 overflow-hidden lg:h-36" data-astro-cid-er4ir5rx> <svg width="230" height="230" class="absolute right-0 top-1/2 -translate-y-1/2 text-gray-300 dark:text-[var(--card-color)]" data-astro-cid-er4ir5rx="true" data-icon="ooui:logo-cc">   <symbol id="ai:ooui:logo-cc" viewBox="0 0 20 20"><path fill="currentColor" d="M10 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8m0-18A9.94 9.94 0 0 0 0 10a9.94 9.94 0 0 0 10 10a9.94 9.94 0 0 0 10-10A9.94 9.94 0 0 0 10 0"/><path fill="currentColor" d="M13.49 11.67c-1 0-1.43-.57-1.43-1.71s.43-1.71 1.43-1.71c.57 0 .86.29 1.14.86l1.29-.71A2.8 2.8 0 0 0 13.2 7a2.9 2.9 0 0 0-2.14.86A2.7 2.7 0 0 0 10.2 10a3 3 0 0 0 .86 2.29a2.9 2.9 0 0 0 2.14.86a3.24 3.24 0 0 0 2.71-1.57L14.63 11a1.46 1.46 0 0 1-1.14.71zm-6 0c-1 0-1.43-.57-1.43-1.71s.43-1.71 1.43-1.71c.57 0 .86.29 1.14.86l1.29-.71A2.8 2.8 0 0 0 7.2 7a2.9 2.9 0 0 0-2.14.86A2.7 2.7 0 0 0 4.2 10a3 3 0 0 0 .86 2.29a2.9 2.9 0 0 0 2.14.86a3.24 3.24 0 0 0 2.71-1.57L8.63 11a1.46 1.46 0 0 1-1.14.71z"/></symbol><use href="#ai:ooui:logo-cc"></use>  </svg> </div> </div>  </div> </div>  </main> <div class="mx-3 space-y-4" data-astro-cid-sz7xmlte> <!-- Owner info card --> <div class="rounded-3xl bg-[var(--card-color)] transition-all lg:hidden" data-astro-cid-sz7xmlte> <div class="flex flex-row md:flex-col md:pt-4" data-astro-cid-sz7xmlte> <a href="/about" class="relative h-40 w-40 md:hidden" data-astro-cid-sz7xmlte> <img class="lozad absolute left-0 top-0 h-40 rounded-l-3xl" data-src="/avatar.png" alt="Avatar" data-astro-cid-sz7xmlte> <div class="absolute right-0 top-0 h-40 w-20 bg-gradient-to-l from-[var(--card-color)]" data-astro-cid-sz7xmlte></div> </a> <a class="mx-auto hidden h-40 w-40 cursor-pointer rounded-3xl transition-all hover:brightness-75 md:block" data-astro-cid-sz7xmlte> <img class="lozad h-40 rounded-3xl" data-src="/avatar.png" alt="Avatar" data-astro-cid-sz7xmlte> </a> <div class="flex grow flex-col justify-center space-y-4 p-4" data-astro-cid-sz7xmlte> <div class="flex flex-col items-center" data-astro-cid-sz7xmlte> <a href="/about" class="line-clamp-1 text-xl font-semibold text-[var(--text-color)]" data-astro-cid-sz7xmlte> 云书景 Yskye </a> <span class="mb-2 mt-1 h-1 w-8 rounded-full bg-[var(--primary-color)]" data-astro-cid-sz7xmlte></span> <p class="line-clamp-1 text-[var(--text-color-lighten)]" data-astro-cid-sz7xmlte> 少年负壮气，奋烈自有时。 </p> </div> <ul class="flex flex-row items-center justify-center space-x-6" data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte> <a href="https://github.com/yunshujing" class="text-[var(--primary-color)]" data-astro-cid-sz7xmlte> <svg width="24" height="24" viewBox="0 0 24 24" data-astro-cid-sz7xmlte="true" data-icon="line-md:github-loop">   <use href="#ai:line-md:github-loop"></use>  </svg> </a> </li><li data-astro-cid-sz7xmlte> <a href="https://space.bilibili.com/214528017" class="text-[var(--primary-color)]" data-astro-cid-sz7xmlte> <svg width="24" height="24" viewBox="0 0 24 24" data-astro-cid-sz7xmlte="true" data-icon="mingcute:bilibili-line">   <use href="#ai:mingcute:bilibili-line"></use>  </svg> </a> </li> </ul> </div> </div> </div> <!-- Category card --> <div class="rounded-3xl bg-[var(--card-color)] p-4 transition-all lg:hidden" data-astro-cid-sz7xmlte> <div class="mb-2 flex flex-row items-center space-x-2 pl-1.5" data-astro-cid-sz7xmlte> <span class="h-6 w-1 rounded-full bg-[var(--primary-color)]" data-astro-cid-sz7xmlte></span> <span class="text-xl font-semibold text-[var(--text-color)]" data-astro-cid-sz7xmlte> 分类 </span> </div> <div class="relative grid grid-cols-2 gap-1 md:grid-cols-3" data-astro-cid-sz7xmlte> <a href="/categories/fa1cffa1" class="category flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-sz7xmlte> <p class="line-clamp-1 text-[var(--text-color)] transition-all" data-astro-cid-sz7xmlte> ACM </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 6 </span> </a><a href="/categories/af967908" class="category flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-sz7xmlte> <p class="line-clamp-1 text-[var(--text-color)] transition-all" data-astro-cid-sz7xmlte> CTF </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 8 </span> </a><a href="/categories/60db1afb" class="category flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)]" data-astro-cid-sz7xmlte> <p class="line-clamp-1 text-[var(--text-color)] transition-all" data-astro-cid-sz7xmlte> 课程 </p> <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 1 </span> </a>  </div> </div> <!-- Tag card --> <div class="rounded-3xl bg-[var(--card-color)] p-4 transition-all lg:hidden" data-astro-cid-sz7xmlte> <div class="mb-2 flex flex-row items-center space-x-2 pl-1.5" data-astro-cid-sz7xmlte> <span class="h-6 w-1 rounded-full bg-[var(--primary-color)]" data-astro-cid-sz7xmlte></span> <span class="text-xl font-semibold text-[var(--text-color)]" data-astro-cid-sz7xmlte> 标签 </span> </div> <div class="relative flex flex-row flex-wrap" data-astro-cid-sz7xmlte> <a href="/tags/2118cbc1" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 学习 </p> </a><a href="/tags/e6f04ffb" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 代码 </p> </a><a href="/tags/fa1cffa1" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> ACM </p> </a><a href="/tags/af967908" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> CTF </p> </a><a href="/tags/2e8ec0f0" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> 逆向 </p> </a><a href="/tags/6a2a781c" class="tag m-1 rounded-md bg-[var(--primary-color-lighten)] px-2 py-1 transition-all hover:brightness-95" data-astro-cid-sz7xmlte> <p class="text-sm text-[var(--primary-color)]" data-astro-cid-sz7xmlte> PWN </p> </a>  </div> </div> <!-- Site footer --> <footer data-astro-cid-sz7xmlte> <div class="divide-y divide-dashed divide-black/25 py-4 lg:pt-0 dark:divide-white/25" data-astro-cid-sz7xmlte> <div data-astro-cid-sz7xmlte></div> <div data-astro-cid-sz7xmlte></div> </div> <div class="flex w-full flex-col items-center text-sm text-[var(--text-color-lighten)]" data-astro-cid-sz7xmlte> <p data-astro-cid-sz7xmlte>
+© 2026 云书景 Yskye All Rights Reserved.
+</p> <p data-astro-cid-sz7xmlte>
+Powered By <a class="link" href="https://github.com/WhitePaper233/yukina" data-astro-cid-sz7xmlte>Yukina</a> & <a class="link" href="https://astro.build/" data-astro-cid-sz7xmlte>Astro</a> </p> <p data-astro-cid-sz7xmlte> <a class="link" href="https://yunshujing.github.io/sitemap-index.xml" data-astro-cid-sz7xmlte>SiteMap</a> / <a class="link" href="/rss.xml" data-astro-cid-sz7xmlte>RSS</a> </p> </div> </footer> </div>  </div> </div> </div>  </body></html>  <!-- <Fragment set:html={tocHTMLString} /> -->
