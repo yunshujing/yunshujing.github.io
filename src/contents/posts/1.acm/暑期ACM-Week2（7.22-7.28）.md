@@ -4,7 +4,7 @@ published: 2024-07-29
 draft: false
 tags: [学习, 代码, ACM]
 category: ACM
-cover: /covers/acm.svg
+cover: /art/code/code2.jpg
 ---
 
 <a name="gumpX"></a>

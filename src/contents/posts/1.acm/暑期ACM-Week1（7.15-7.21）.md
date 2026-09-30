@@ -4,7 +4,7 @@ published: 2024-07-22
 draft: false
 tags: [学习, 代码, ACM]
 category: ACM
-cover: /covers/acm.svg
+cover: /art/code/code1.jpg
 ---
 
 <a name="mZ348"></a>

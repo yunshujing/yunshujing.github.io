@@ -4,7 +4,7 @@ published: 2024-08-12
 draft: false
 tags: [学习, 代码, ACM]
 category: ACM
-cover: /covers/acm.svg
+cover: /art/code/code4.jpg
 ---
 
 <a name="mGajL"></a>

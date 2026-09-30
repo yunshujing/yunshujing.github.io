@@ -4,7 +4,7 @@ published: 2023-10-10
 draft: false
 tags: [预览, 组件]
 category: 预览
-cover: /covers/preview.svg
+cover: /art/b1047.jpg
 ---
 
 <CustomComponent />

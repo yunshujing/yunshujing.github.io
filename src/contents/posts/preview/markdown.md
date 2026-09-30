@@ -4,7 +4,7 @@ published: 2023-10-10
 draft: false
 tags: [markdown]
 category: 预览
-cover: /covers/preview.svg
+cover: /art/b1015.jpg
 ---
 
 ## 标题 2
