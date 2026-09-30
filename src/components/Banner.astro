@@ -205,18 +205,26 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
   ];
   const el = document.querySelector(".banner .subtitle");
   if (el) {
-    el.textContent = quotes[Math.floor(Math.random() * quotes.length)];
-    // 在线一言异步补充：成功替换、失败/超时保持本地
+    // 在线优先：首帧保持品牌副标题，请求成功一次性替换；失败/超时才回落本地句（全程只变化一次）
+    const fallback = () => {
+      el.textContent = quotes[Math.floor(Math.random() * quotes.length)];
+    };
     try {
       const ctrl = new AbortController();
-      const timer = setTimeout(() => ctrl.abort(), 5000);
+      const timer = setTimeout(() => {
+        ctrl.abort();
+        fallback();
+      }, 5000);
       fetch("https://v1.hitokoto.cn/?encode=json", { signal: ctrl.signal })
         .then((r) => r.json())
         .then((d) => {
           if (d && d.hitokoto) el.textContent = d.hitokoto;
+          else fallback();
         })
-        .catch(() => {})
+        .catch(() => fallback())
         .finally(() => clearTimeout(timer));
-    } catch (e) {}
+    } catch (e) {
+      fallback();
+    }
   }
 </script>
