@@ -1,7 +1,7 @@
 ---
 title: 我把待办交给了 AI：滴答清单接入实录
 published: 2026-10-26
-draft: true
+draft: false
 tags: [工具, 自动化]
 category: 教程
 cover: /art/todo-1.jpg
