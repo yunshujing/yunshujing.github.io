@@ -41,10 +41,6 @@ Hexo 的好处是快。装完、换个主题、写篇 md，半小时就能上线
 
 从那之后我固定做一件事：上线后把站点的关键路径逐个访问一遍——首页、某篇文章、归档、标签、RSS、sitemap、搜索索引、静态资源。九个路径，两分钟。
 
-![](/art/blog-plume.png)
-
-*Plume 主题的官方标识 —— 第二版用的就是它（VuePress + Plume）。*
-
 ## 三、第三版 Astro：把构建外包出去
 
 第三版换到 Astro 主题，前端是 Astro + Svelte + Tailwind。
