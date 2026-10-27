@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="640" viewBox="0 0 1920 640">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="0.45" stop-color="#0b0f2b"/>
+      <stop offset="0.75" stop-color="#1a1145"/>
+      <stop offset="1" stop-color="#2c1d68"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.78" cy="0.12" r="0.55">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.85"/>
+      <stop offset="0.35" stop-color="#6d28d9" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.2" cy="0.85" r="0.5">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.42" r="0.35">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="softHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur12"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+
+  <rect width="1920" height="640" fill="url(#base)"/>
+  <rect width="1920" height="640" fill="url(#glowA)" filter="url(#blur30)"/>
+  <rect width="1920" height="640" fill="url(#glowB)" filter="url(#blur12)"/>
+  <rect width="1920" height="640" fill="url(#glowC)"/>
+
+  <!-- 核心柔和光斑(苹果招牌式光晕) -->
+  <ellipse cx="960" cy="300" rx="360" ry="240" fill="url(#softHalo)" filter="url(#blur30)"/>
+  <circle cx="1500" cy="120" r="90" fill="#a78bfa" opacity="0.16" filter="url(#blur12)"/>
+  <circle cx="420" cy="500" r="120" fill="#38bdf8" opacity="0.12" filter="url(#blur12)"/>
+
+  <!-- 底部极细渐变亮线(苹果细节) -->
+  <path d="M0 612 H1920" stroke="url(#accentLine)" stroke-width="1.4" opacity="0.9"/>
+</svg>
